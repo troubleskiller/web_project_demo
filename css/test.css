@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#backimgone{
+    background-image: url("../source/backgroundimg1.webp");
+    height: 980px;
+    width: 1902px;
+    margin:0;
+    background-size: cover;
+}
+#one{
+    font-size: 40px;
+    position: relative;
+    left: 1cm;
+    font-family: fantasy;
+}
+.top{
+    position: relative;
+    left: 13cm;
+    top:-0.3cm;
+    margin:8px;  
+   
+}
+.top:hover{
+    background-color: #999;
+    opacity: 0.4;
+}
+.top1{
+    position: relative;
+    left: 28cm;
+    top:-0.5cm;
+}
+.top1:hover{
+    background-color: #999;
+    opacity: 0.4;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.over{
+    background-color: #999;
+}
+#model3{
+    text-align: center;
+    font-size: 45px;
+    position: relative;
+    top:4cm;   
+}
+#wudi{
+    position: relative;
+    top:4.2cm;
+    margin: 0 auto; 
+    text-align: center;
+}
+#shijia{
+    text-decoration: underline;
+}
+#zuoyi{
+    margin:0;
+    padding: 0;
+    background-color: black;
+    position: relative;
+    top:716px;
+    left:646px;
+    width: 264px;
+    height: 40px;
+    border-radius:10px;
+
+
+    
+}
+#youyi{
+    margin:0;
+    padding: 0;
+    background-color: white;
+    position: relative;
+    top:676px;
+    left: 937px;
+    width: 264px;
+    height: 40px;
+    border-radius:10px;
+
+}
+#zhe{
+    color: white;
+    margin: 0 auto; 
+    text-align: center;
+}
+#na{
+    color: black;
+    margin: 0 auto; 
+    text-align: center;
+
+    
+}
+.juzhong{
+    display:flex;
+    line-height: 40px;
+}
