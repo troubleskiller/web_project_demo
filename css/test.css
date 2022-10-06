@@ -8,17 +8,84 @@ body{
     width: 1902px;
     margin:0;
     background-size: cover;
+    padding: 0%;
+}
+#bac2{
+    height: 980px;
+    width: 1902px;
+    background-image: url("../source/backgroundimgtwo.jpg") ;
+   
+    margin:0;
+    background-size: cover;
+    padding: 0%;
 }
 #one{
     font-size: 40px;
-    position: relative;
+    position: fixed;
     left: 1cm;
+    top :0.3cm;
     font-family: fantasy;
 }
-.top{
-    position: relative;
-    left: 13cm;
-    top:-0.3cm;
+#two{
+    position: fixed;
+    left: 17.5cm;
+    top:0.5cm;
+    margin:8px;  
+   
+}
+#three{
+    position: fixed;
+    left: 19.8cm;
+    top:0.5cm;
+    margin:8px;  
+   
+}
+#four{
+    position: fixed;
+    left: 22.1cm;
+    top:0.5cm;
+    margin:8px;  
+   
+}
+#five{
+    position: fixed;
+    left: 24.4cm;
+    top:0.5cm;
+    margin:8px;  
+   
+}
+#six{
+    position: fixed;
+    left: 26.7cm;
+    top:0.5cm;
+    margin:8px;  
+   
+}
+#seven{
+    position: fixed;
+    left: 29.5cm;
+    top:0.5cm;
+    margin:8px;  
+   
+}
+#eight{
+    position: fixed;
+    right: 2.9cm;
+    top:0.5cm;
+    margin:8px;  
+   
+}
+#nine{
+    position: fixed;
+    right: 1.8cm;
+    top:0.5cm;
+    margin:8px;  
+   
+}
+#ten{
+    position: fixed;
+    right: 0.3cm;
+    top:0.5cm;
     margin:8px;  
    
 }
@@ -26,11 +93,7 @@ body{
     background-color: #999;
     opacity: 0.4;
 } */
-.top1{
-    position: relative;
-    left: 28cm;
-    top:-0.5cm;
-}
+
 /* .top1:hover{
     background-color: #999;
     opacity: 0.4;
