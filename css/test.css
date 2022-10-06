@@ -22,19 +22,19 @@ body{
     margin:8px;  
    
 }
-.top:hover{
+/* .top:hover{
     background-color: #999;
     opacity: 0.4;
-}
+} */
 .top1{
     position: relative;
     left: 28cm;
     top:-0.5cm;
 }
-.top1:hover{
+/* .top1:hover{
     background-color: #999;
     opacity: 0.4;
-}
+} */
 a{
     text-decoration: none;
     color: black;
