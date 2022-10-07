@@ -4,9 +4,21 @@
     <meta charset="UTF-8">
     <title>第一个测试网页</title>
     <link rel="stylesheet" type="text/css" href="../css/test.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <style>
+        @media only screen and (max-width: 1200px) {
+    #two,#three,#four,#five,#six,#seven,#eight,#nine{
+        display: none;
+    }}
+    @media only screen and (max-width: 1800px) {
+        #zuoyi,#youyi{
+            display: none;
+        }}
+    </style>
 </head>
 <body>
     <div id="backimgone">
+        
         <div>
             <a id="one" href="index.html">Tesla</a>
             <a id="two" class="top" href="https://www.tesla.cn/models" title="Model S">Model&nbspS</a>
