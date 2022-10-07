@@ -1,0 +1,167 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#backimgone{
+    background-image: url("../source/backgroundimg1.webp");
+    height: 980px;
+    width: 1902px;
+    margin:0;
+    background-size: cover;
+    padding: 0%;
+}
+#bac2{
+    height: 980px;
+    width: 1902px;
+    background-image: url("../source/backgroundimgtwo.jpg") ;  
+    margin:0;
+    background-size: cover;
+    padding: 0%;
+}
+#one{
+    font-size: 40px;
+    position: fixed;
+    left: 1cm;
+    top :0.3cm;
+    font-family: fantasy;
+}
+#two{
+    position: fixed;
+    left: 17.5cm;
+    top:0.5cm;
+    margin:8px;     
+}
+#three{
+    position: fixed;
+    left: 19.8cm;
+    top:0.5cm;
+    margin:8px;     
+}
+#four{
+    position: fixed;
+    left: 22.1cm;
+    top:0.5cm;
+    margin:8px;     
+}
+#five{
+    position: fixed;
+    left: 24.4cm;
+    top:0.5cm;
+    margin:8px;     
+}
+#six{
+    position: fixed;
+    left: 26.7cm;
+    top:0.5cm;
+    margin:8px;     
+}
+#seven{
+    position: fixed;
+    left: 29.5cm;
+    top:0.5cm;
+    margin:8px;    
+}
+#eight{
+    position: fixed;
+    right: 2.9cm;
+    top:0.5cm;
+    margin:8px;    
+}
+#nine{
+    position: fixed;
+    right: 1.8cm;
+    top:0.5cm;
+    margin:8px;     
+}
+#ten{
+    position: fixed;
+    right: 0.3cm;
+    top:0.5cm;
+    margin:8px;     
+}
+/* .top:hover{
+    background-color: #999;
+    opacity: 0.4;
+} */
+
+/* .top1:hover{
+    background-color: #999;
+    opacity: 0.4;
+} */
+a{
+    text-decoration: none;
+    color: black;
+}
+.over{
+    background-color: #999;
+}
+#model3{
+    
+    font-size: 45px;
+    position: fixed;
+    top:4cm; 
+    right:23cm;
+
+}
+#wudi{
+    position: fixed;
+    top:218px;
+    margin: 0 auto; 
+    text-align: center;
+    right: 930px;
+}
+#shijia{
+    text-decoration: underline;
+}
+#zuoyi{
+    margin:0;
+    padding: 0;
+    background-color: black;
+    position: fixed;
+    top: 825px;
+    left:646px;
+    width: 264px;
+    height: 40px;
+    border-radius:10px;   
+}
+#youyi{
+    margin:0;
+    padding: 0;
+    background-color: white;
+    position: fixed;
+    top:825px;
+    left: 937px;
+    width: 264px;
+    height: 40px;
+    border-radius:10px;
+}
+#zhe{
+    color: white;
+    margin: 0 auto; 
+    text-align: center;
+}
+#na{
+    color: black;
+    margin: 0 auto; 
+    text-align: center;  
+}
+.juzhong{
+    display:flex;
+    line-height: 40px;
+}
+#img{
+    width: 40px;
+    height: 20px;
+    position: relative;
+}
+#jiantou{
+    position: relative;
+    left: 903px;
+    top: 925px;
+    z-index: 999;
+    width: 40px;
+    height: 20px;
+    margin:0px;
+    padding: 0px;
+}
+
