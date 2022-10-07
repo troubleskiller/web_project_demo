@@ -1,47 +1,65 @@
-// 下面是使header中的element聚焦时产生背景色
 var ab=document.getElementsByClassName('top');
+
 for(var i=0;i<ab.length;i++){
     ab[i].onmouseover=function(){
-    this.style.backgroundColor='#999';  
-    }
+    this.style.backgroundColor='#999';
+    
+}
 }
 for(var i=0;i<ab.length;i++){
     ab[i].onmouseleave=function(){
     this.style.backgroundColor='transparent';
-    }
-}
+}}
 var ab1=document.getElementsByClassName('top1');
 for(var i=0;i<ab1.length;i++){
     ab1[i].onmouseover=function(){
-    this.style.backgroundColor='#999';    
-    }
+    this.style.backgroundColor='#999';
+    
+}
 }
 for(var i=0;i<ab1.length;i++){
-    b1[i].onmouseleave=function(){
+    ab1[i].onmouseleave=function(){
     this.style.backgroundColor='transparent';
-    }
+}}
+function getStyle ( obj, attr ) {
+    return obj.currentStyle?obj.currentStyle[attr] : getComputedStyle( obj )[attr];
 }
-
-// 下面是下滑键按钮操作页面滑动的代码块
-window.onload = function (){
+window.onload = function ()
+{
 var img1 = document.getElementById('img');
 var arr = [];
-        for(var i =4; i>=2; i=i-1){  //产生数组arr = [4,3,2,-2,-3,-4]
+
+        for(var i =4; i>=2; i=i-1){  //产生数组arr = [10,-10,08,-08,....,0]
             arr.push(i);
             arr.push(-i);
         }
         function dou() { //抖动函数
             var i = 0;
             var timer = setInterval(function (){
+
                     if(i>=arr.length){
                         clearInterval(timer);
                     }
                     img1.style.top = arr[i] + 'px'; //根据arr数组定时修改div的top值。
                     i=i+1;
+
             },100);
+
+
         }
-        setInterval(dou,2000); //每2s执行抖动函数。
+
+        setInterval(dou,2000); //每5s执行抖动函数。
 }
+var ele = document.getElementById('input-style')
+function moveScrollIntoView(content) {
+    setTimeout(() => {
+        ele.scrollIntoView(content)
+    },500)
+}
+
+
+
+
 
 // 以下是制作滚轮滑动事件触发操作的代码块@author:xlk-20221006-15:44
 window.onscroll = function () {
