@@ -4,7 +4,6 @@ body{
 }
 #backimgone{
     background-image: url("../source/backgroundimg1.webp")  ;
-    
     height: 980px;
     width: 100%;
     margin:0;
@@ -23,10 +22,27 @@ body{
     padding: 0%;
     float: left;
     position: relative;
-
 }
-
-
+#bac3{
+    height: 980px;
+    width: 100%;
+    background-image: url("../source/modelx.jpg") ;  
+    margin:0;
+    background-size: cover;
+    padding: 0%;
+    float: left;
+    position: relative;
+}
+#bac4{
+    height: 980px;
+    width: 100%;
+    background-image: url("../source/bac4.jpg") ;  
+    margin:0;
+    background-size: cover;
+    padding: 0%;
+    float: left;
+    position: relative;
+}
 #one{
     font-size: 40px;
     position: fixed;
@@ -148,7 +164,6 @@ a{
     font-size: 269%;
     position: fixed;
     top:15%; 
-   
     float:right;
     margin: 0%;
     z-index: 999;
@@ -200,6 +215,8 @@ a{
     float:right;
     overflow:hidden;
 }
+
+
 #zhe{
     color: white;
     margin: 0 auto; 
@@ -223,10 +240,11 @@ a{
     position: relative;
     left: 50%;
     top: 92%;
-    z-index: 999;
+    z-index: 15;
     width: 40px;
     height: 20px;
     margin:0px;
     padding: 0px;
 }
+
 

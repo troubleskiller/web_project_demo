@@ -62,11 +62,16 @@ function moveScrollIntoView(content) {
 
 // 以下是制作滚轮滑动事件触发操作的代码块@author:xlk-20221006-15:44
 window.onscroll = function () {
-    console.log(h);
+    
     var h = document.documentElement.scrollTop || document.body.scrollTop;
     console.log(h);
     var rel=-0.01*h+2;    
     var rel1=0.003*h-1.5;
+    var reller=parseFloat(-0.01*h)+12;
+    var rell=0.002*h-3;
+    var reu=-0.01*h+22;
+    console.log(reller);
+    console.log(rell);
     var headerTop = document.getElementById("zuoyi");
     var headerTop2=document.getElementById("youyi");
     var zhe=document.getElementById("zhe");
@@ -84,15 +89,21 @@ window.onscroll = function () {
     headerTop2.style.background = "rgba(255,255,255," +rel+ ")"; 
         na.style.color="rgba(0,0,0," +rel+ ")";
         na.innerHTML="了解Model 3";
+        zuoyi.style.display='block';
+        youyi.style.display='block';
+        wudi.style.display='block';
     } else if(h>=500&&h<=1000){
         headerTop.style.background = "rgba(0,0,0," +rel1+ ")";
         zhe.style.color="rgba(255,255,255," +rel1+ ")";
-        zhe.innerHTML="定制我的Model S";
+        zhe.innerHTML="定制我的Model Y";
         model3.style.color="rgba(0,0,0," +rel1+ ")";
         shijia.style.color="rgba(0,0,0," +rel1+ ")";
-        model3.innerHTML='Model S';
+        model3.innerHTML='Model Y';
         headerTop2.style.background = "rgba(255,255,255," +rel1+ ")";
-            na.style.color="rgba(0,0,0," +rel1+ ")";
+        na.style.color="rgba(0,0,0," +rel1+ ")";
+        zuoyi.style.display='block';
+        youyi.style.display='block';
+        wudi.style.display='block';
     } else if(h>=200&&h<=500){
     headerTop.style.background = "rgba(0,0,0,0.0)";
     zhe.style.color="rgba(255,255,255,0)";
@@ -101,23 +112,116 @@ window.onscroll = function () {
     model3.innerHTML='Model S';
     headerTop2.style.background = "rgba(255,255,255,0.0)";
         na.style.color="rgba(0,0,0,0)";
-        na.innerHTML="了解Model S";
-    }else if(h>0&&h<100){
+        na.innerHTML="了解Model Y";
+        zuoyi.style.display='block';
+        youyi.style.display='block';
+        wudi.style.display='block';
+    }else if(h>=0&&h<100){
         headerTop.style.background = "rgba(0,0,0,1)";
         zhe.style.color="rgba(255,255,255,1)";
         model3.style.color="rgba(0,0,0,1)";  
         shijia.style.color="rgba(0,0,0,1)";  
         model3.innerHTML='Model 3';
         headerTop2.style.background = "rgba(255,255,255,1)"; 
-        na.style.color="rgba(0,0,0,1)";   
-    }else{
+        na.style.color="rgba(0,0,0,1)";  
+        zuoyi.style.display='block';
+        youyi.style.display='block';
+        wudi.style.display='block'; 
+    }else if(h>500&&h<1000){
         headerTop.style.background = "rgba(0,0,0,1)";
         zhe.style.color="rgba(255,255,255,1)";
         model3.style.color="rgba(0,0,0,1)";  
         shijia.style.color="rgba(0,0,0,1)"; 
         headerTop2.style.background = "rgba(255,255,255,1)";
-        na.style.color="rgba(0,0,0,1)";     
+        na.style.color="rgba(0,0,0,1)"; 
+        zuoyi.style.display='block';
+        youyi.style.display='block';
+        wudi.style.display='block';    
+    }else if(h>=1100&&h<=1200){
+        headerTop.style.background = "rgba(0,0,0," +reller+ ")"; 
+        zhe.style.color="rgba(255,255,255," +reller+ ")"; 
+        zhe.innerHTML="定制我的Model Y";
+        model3.color="rgba(0,0,0," +reller+ ")";
+        shijia.color="rgba(0,0,0," +reller+ ")";
+        model3.innerHTML='Model Y';
+        headerTop2.style.background = "rgba(255,255,255," +reller+ ")"; 
+        na.style.color="rgba(0,0,0," +reller+ ")";
+        na.innerHTML="了解Model Y";
+        zuoyi.style.display='block';
+        youyi.style.display='block';
+        wudi.style.display='block';
     }
+    else if(h>1200&&h<=1500){
+        headerTop.style.background = "rgba(0,0,0,0.0)";
+        zhe.style.color="rgba(255,255,255,0)";
+        model3.style.color="rgba(0,0,0,0)";
+        shijia.style.color="rgba(0,0,0,0)";
+        model3.innerHTML='Model X';
+        headerTop2.style.background = "rgba(255,255,255,0.0)";
+        na.style.color="rgba(0,0,0,0)";
+        na.innerHTML="了解Model X";
+        zhe.innerHTML="定制我的Model X";
+        zuoyi.style.display='block';
+        youyi.style.display='block';
+        wudi.style.display='block';
+    }
+    else if(h>=1000&&h<1100){
+        headerTop.style.background = "rgba(0,0,0,1)";
+        zhe.style.color="rgba(255,255,255,1)";
+        model3.style.color="rgba(0,0,0,1)";  
+        shijia.style.color="rgba(0,0,0,1)";       
+        headerTop2.style.background = "rgba(255,255,255,1)"; 
+        na.style.color="rgba(0,0,0,1)"; 
+        model3.innerHTML='Model Y';
+        zuoyi.style.display='block';
+        youyi.style.display='block';
+        wudi.style.display='block';
+    }else if(h>=1500&&h<2000){
+        headerTop.style.background = "rgba(0,0,0," +rell+ ")";
+        zhe.style.color="rgba(255,255,255," +rell+ ")";
+        zhe.innerHTML="定制我的Model X";
+        model3.style.color="rgba(0,0,0," +rell+ ")";
+        shijia.style.color="rgba(0,0,0," +rell+ ")";
+        model3.innerHTML='Model X';
+        headerTop2.style.background = "rgba(255,255,255," +rell+ ")";
+        na.style.color="rgba(0,0,0," +rell+ ")";
+        zuoyi.style.display='block';
+        youyi.style.display='block';
+        wudi.style.display='block';
+    }else if(h>=2000&&h<2100){
+        headerTop.style.background = "rgba(0,0,0,1)";
+        zhe.style.color="rgba(255,255,255,1)";
+        model3.style.color="rgba(0,0,0,1)";  
+        shijia.style.color="rgba(0,0,0,1)"; 
+        headerTop2.style.background = "rgba(255,255,255,1)";
+        na.style.color="rgba(0,0,0,1)";  
+        zhe.innerHTML="定制我的Model X";   
+        na.innerHTML="了解Model X";
+        model3.innerHTML='Model X';
+        zuoyi.style.display='block';
+        youyi.style.display='block';
+        wudi.style.display='block';
+    }else if(h>=2100&&h<=2200){
+        model3.style.color="rgba(0,0,0," +reu+ ")";
+        zuoyi.style.display='none';
+        youyi.style.display='none';
+        wudi.style.display='none';
+    }else if(h>2200&&h<=2500){
+        zuoyi.style.display='none';
+        youyi.style.display='none';
+        wudi.style.display='none';
+    }
+
+    
     
 
 }
+// background-image: url("../source/backgroundimg3.jpg")  ;
+    
+// height: 980px;
+// width: 100%;
+// margin:0;
+// background-size:cover;
+// padding: 0%;
+// float: left;
+// position: relative;
