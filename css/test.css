@@ -1,83 +1,156 @@
 body{
-    margin: 0;
-    padding: 0;
+    margin: 0%;
+    padding: 0%;
 }
 #backimgone{
-    background-image: url("../source/backgroundimg1.webp");
+    background-image: url("../source/backgroundimg1.webp")  ;
     height: 980px;
-    width: 1902px;
+    width: 100%;
     margin:0;
-    background-size: cover;
+    background-size:cover;
     padding: 0%;
+    float: left;
+    position: relative;
+    
 }
 #bac2{
     height: 980px;
-    width: 1902px;
+    width: 100%;
     background-image: url("../source/backgroundimgtwo.jpg") ;  
     margin:0;
     background-size: cover;
     padding: 0%;
+    float: left;
+    position: relative;
+}
+#bac3{
+    height: 980px;
+    width: 100%;
+    background-image: url("../source/modelx.jpg") ;  
+    margin:0;
+    background-size: cover;
+    padding: 0%;
+    float: left;
+    position: relative;
+}
+#bac4{
+    height: 980px;
+    width: 100%;
+    background-image: url("../source/bac4.jpg") ;  
+    margin:0;
+    background-size: cover;
+    padding: 0%;
+    float: left;
+    position: relative;
+}
+#bac5{
+    height: 980px;
+    width: 100%;
+    background-image: url("../source/bac52.jpg") ;  
+    margin:0;
+    background-size: cover;
+    padding: 0%;
+    float: left;
+    position: relative;
 }
 #one{
     font-size: 40px;
     position: fixed;
-    left: 1cm;
-    top :0.3cm;
+    left: 2%;
+    top :1%;
     font-family: fantasy;
+    float: left;
+    z-index: 999;
 }
 #two{
     position: fixed;
-    left: 17.5cm;
-    top:0.5cm;
-    margin:8px;     
+    left: 31%;
+    top:2%;
+    margin:0%; 
+    float: left;
+    overflow:hidden;
+    font-size: 100%; 
+    z-index: 999;    
 }
 #three{
     position: fixed;
-    left: 19.8cm;
-    top:0.5cm;
-    margin:8px;     
+    left: 37.3%;
+    top:2%;
+    margin:0%;  
+    float: left; 
+    overflow:hidden;
+    font-size: 100%; 
+    z-index: 999;   
 }
 #four{
     position: fixed;
-    left: 22.1cm;
-    top:0.5cm;
-    margin:8px;     
+    left: 43.6%;
+    top:2%;
+    margin:0%; 
+    float: left;
+    overflow:hidden;
+    font-size: 100%;   
+    z-index: 999;   
 }
 #five{
     position: fixed;
-    left: 24.4cm;
-    top:0.5cm;
-    margin:8px;     
+    left: 49.9%;
+    top:2%;
+    margin:0%;   
+    float: left; 
+    overflow:hidden;
+    font-size: 100%;  
+    z-index: 999; 
 }
 #six{
     position: fixed;
-    left: 26.7cm;
-    top:0.5cm;
-    margin:8px;     
+    left: 56.2%;
+    top:2%;
+    margin:0%; 
+    float: left;
+    overflow:hidden;
+    font-size: 100%; 
+    z-index: 999;     
 }
 #seven{
     position: fixed;
-    left: 29.5cm;
-    top:0.5cm;
-    margin:8px;    
+    left: 63.6%;
+    top:2%;
+    margin:0%; 
+    float: left; 
+    overflow:hidden;
+    font-size: 100%;
+    z-index: 999;    
 }
 #eight{
     position: fixed;
-    right: 2.9cm;
-    top:0.5cm;
-    margin:8px;    
+    right:7.3%;
+    top:2%;
+    margin:0%;
+    float: right;
+    overflow:hidden;
+    font-size: 100%; 
+    z-index: 999;     
 }
 #nine{
     position: fixed;
-    right: 1.8cm;
-    top:0.5cm;
-    margin:8px;     
+    right: 4.3%;
+    top:2%;
+    margin:0%; 
+    float: right; 
+    overflow:hidden;
+    font-size: 100%; 
+    z-index: 999;      
 }
 #ten{
     position: fixed;
-    right: 0.3cm;
-    top:0.5cm;
-    margin:8px;     
+    right: 0%;
+    top:2%;
+    margin:0%;  
+    float: right; 
+    overflow:hidden;
+    font-size: 100%; 
+    z-index: 999;      
 }
 /* .top:hover{
     background-color: #999;
@@ -95,46 +168,78 @@ a{
 .over{
     background-color: #999;
 }
+
 #model3{
     
-    font-size: 45px;
+    font-size: 269%;
     position: fixed;
-    top:4cm; 
-    right:23cm;
+    top:15%; 
+    float:right;
+    margin: 0%;
+    z-index: 999;
+    padding: 0%;
+    width:100%;
+    
+    text-align: center;
 
 }
 #wudi{
     position: fixed;
-    top:218px;
-    margin: 0 auto; 
+    top:22%;
+    margin: 0%; 
     text-align: center;
-    right: 930px;
+    
+    float:right;
+    overflow:hidden;
+    z-index: 999;
+    width:100%;
 }
 #shijia{
     text-decoration: underline;
 }
 #zuoyi{
-    margin:0;
-    padding: 0;
+    margin:0%;
+    padding: 0%;
     background-color: black;
     position: fixed;
-    top: 825px;
-    left:646px;
+    top: 86%;
+    left:36%;
     width: 264px;
     height: 40px;
-    border-radius:10px;   
+    border-radius:10px;  
+    z-index: 999; 
+    float:left;
+    overflow:hidden;
 }
 #youyi{
     margin:0;
     padding: 0;
     background-color: white;
     position: fixed;
-    top:825px;
-    left: 937px;
+    top:86%;
+    left: 52%;
     width: 264px;
     height: 40px;
     border-radius:10px;
+    z-index: 999;
+    float:left;
+    overflow:hidden;
 }
+#zhongjian{
+    margin:0%;
+    padding: 0%;
+    background-color: black;
+    position: fixed;
+    top: 86%;
+    left:43%;
+    width: 264px;
+    height: 40px;
+    border-radius:10px;  
+    z-index: 999; 
+    float:right;
+    overflow:hidden;
+}
+
 #zhe{
     color: white;
     margin: 0 auto; 
@@ -144,6 +249,11 @@ a{
     color: black;
     margin: 0 auto; 
     text-align: center;  
+}
+#knowALot{
+    color: white;
+    margin: 0 auto; 
+    text-align: center;
 }
 .juzhong{
     display:flex;
@@ -156,12 +266,27 @@ a{
 }
 #jiantou{
     position: relative;
-    left: 903px;
-    top: 925px;
-    z-index: 999;
+    left: 50%;
+    top: 92%;
+    z-index: 15;
     width: 40px;
     height: 20px;
     margin:0px;
     padding: 0px;
+}
+#tabb{
+    position: relative;
+    left: 74%;
+    margin:0%;
+    padding: 0%x;
+    font-size: small;
+    float: left;
+}
+#taba{
+    position: relative;
+    top:96.5%;
+    margin:0%;
+    padding: 0%; 
+    float: left;   
 }
 
