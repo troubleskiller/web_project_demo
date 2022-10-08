@@ -28,7 +28,7 @@ window.onload = function ()
 var img1 = document.getElementById('img');
 var arr = [];
 
-        for(var i =4; i>=2; i=i-1){  //产生数组arr = [10,-10,08,-08,....,0]
+        for(var i =4; i>=2; i=i-1){  
             arr.push(i);
             arr.push(-i);
         }
@@ -47,7 +47,7 @@ var arr = [];
 
         }
 
-        setInterval(dou,2000); //每5s执行抖动函数。
+        setInterval(dou,2000); 
 }
 var ele = document.getElementById('input-style')
 function moveScrollIntoView(content) {
@@ -67,18 +67,22 @@ window.onscroll = function () {
     console.log(h);
     var rel=-0.01*h+2;    
     var rel1=0.003*h-1.5;
-    var reller=parseFloat(-0.01*h)+12;
+    var reller=-0.01*h+12;
     var rell=0.002*h-3;
-    var reu=-0.01*h+22;
-    console.log(reller);
-    console.log(rell);
+    var reu=-0.005*h+12;
+    var ree=0.005*h-13;
+    var reel=-0.005*h+16;
+    var relt=0.005*h-18;
+    console.log(reu);
     var headerTop = document.getElementById("zuoyi");
     var headerTop2=document.getElementById("youyi");
     var zhe=document.getElementById("zhe");
     var na=document.getElementById("na");
     var model3=document.getElementById('model3');
     var wudi=document.getElementById('wudi');
-    var shijia=document.getElementById('shijia')    
+    var shijia=document.getElementById('shijia');
+    var zhongjian=document.getElementById('zhongjian');
+    var knowALot=document.getElementById('knowALot');    
     if(h>=100&&h<=200){
     headerTop.style.background = "rgba(0,0,0," +rel+ ")"; 
     zhe.style.color="rgba(255,255,255," +rel+ ")"; 
@@ -89,9 +93,11 @@ window.onscroll = function () {
     headerTop2.style.background = "rgba(255,255,255," +rel+ ")"; 
         na.style.color="rgba(0,0,0," +rel+ ")";
         na.innerHTML="了解Model 3";
-        zuoyi.style.display='block';
-        youyi.style.display='block';
+        headerTop.style.display='block';
+        headerTop2.style.display='block';
         wudi.style.display='block';
+        zhongjian.style.display='none';
+        shijia.style.textDecoration='underline';
     } else if(h>=500&&h<=1000){
         headerTop.style.background = "rgba(0,0,0," +rel1+ ")";
         zhe.style.color="rgba(255,255,255," +rel1+ ")";
@@ -101,9 +107,11 @@ window.onscroll = function () {
         model3.innerHTML='Model Y';
         headerTop2.style.background = "rgba(255,255,255," +rel1+ ")";
         na.style.color="rgba(0,0,0," +rel1+ ")";
-        zuoyi.style.display='block';
-        youyi.style.display='block';
+        headerTop.style.display='block';
+        headerTop2.style.display='block';
         wudi.style.display='block';
+        zhongjian.style.display='none';
+        shijia.style.textDecoration='underline';
     } else if(h>=200&&h<=500){
     headerTop.style.background = "rgba(0,0,0,0.0)";
     zhe.style.color="rgba(255,255,255,0)";
@@ -113,9 +121,11 @@ window.onscroll = function () {
     headerTop2.style.background = "rgba(255,255,255,0.0)";
         na.style.color="rgba(0,0,0,0)";
         na.innerHTML="了解Model Y";
-        zuoyi.style.display='block';
-        youyi.style.display='block';
+        headerTop.style.display='block';
+        headerTop2.style.display='block';
         wudi.style.display='block';
+        zhongjian.style.display='none';
+        shijia.style.textDecoration='underline';
     }else if(h>=0&&h<100){
         headerTop.style.background = "rgba(0,0,0,1)";
         zhe.style.color="rgba(255,255,255,1)";
@@ -124,9 +134,11 @@ window.onscroll = function () {
         model3.innerHTML='Model 3';
         headerTop2.style.background = "rgba(255,255,255,1)"; 
         na.style.color="rgba(0,0,0,1)";  
-        zuoyi.style.display='block';
-        youyi.style.display='block';
+        headerTop.style.display='block';
+        headerTop2.style.display='block';
         wudi.style.display='block'; 
+        zhongjian.style.display='none';
+        shijia.style.textDecoration='underline';
     }else if(h>500&&h<1000){
         headerTop.style.background = "rgba(0,0,0,1)";
         zhe.style.color="rgba(255,255,255,1)";
@@ -134,9 +146,11 @@ window.onscroll = function () {
         shijia.style.color="rgba(0,0,0,1)"; 
         headerTop2.style.background = "rgba(255,255,255,1)";
         na.style.color="rgba(0,0,0,1)"; 
-        zuoyi.style.display='block';
-        youyi.style.display='block';
-        wudi.style.display='block';    
+        headerTop.style.display='block';
+        headerTop2.style.display='block';
+        wudi.style.display='block';
+        zhongjian.style.display='none';
+        shijia.style.textDecoration='underline';    
     }else if(h>=1100&&h<=1200){
         headerTop.style.background = "rgba(0,0,0," +reller+ ")"; 
         zhe.style.color="rgba(255,255,255," +reller+ ")"; 
@@ -147,9 +161,11 @@ window.onscroll = function () {
         headerTop2.style.background = "rgba(255,255,255," +reller+ ")"; 
         na.style.color="rgba(0,0,0," +reller+ ")";
         na.innerHTML="了解Model Y";
-        zuoyi.style.display='block';
-        youyi.style.display='block';
+        headerTop.style.display='block';
+        headerTop2.style.display='block';
         wudi.style.display='block';
+        zhongjian.style.display='none';
+        shijia.style.textDecoration='underline';
     }
     else if(h>1200&&h<=1500){
         headerTop.style.background = "rgba(0,0,0,0.0)";
@@ -161,9 +177,11 @@ window.onscroll = function () {
         na.style.color="rgba(0,0,0,0)";
         na.innerHTML="了解Model X";
         zhe.innerHTML="定制我的Model X";
-        zuoyi.style.display='block';
-        youyi.style.display='block';
+        headerTop.style.display='block';
+        headerTop2.style.display='block';
         wudi.style.display='block';
+        zhongjian.style.display='none';
+        shijia.style.textDecoration='underline';
     }
     else if(h>=1000&&h<1100){
         headerTop.style.background = "rgba(0,0,0,1)";
@@ -173,9 +191,11 @@ window.onscroll = function () {
         headerTop2.style.background = "rgba(255,255,255,1)"; 
         na.style.color="rgba(0,0,0,1)"; 
         model3.innerHTML='Model Y';
-        zuoyi.style.display='block';
-        youyi.style.display='block';
+        headerTop.style.display='block';
+        headerTop2.style.display='block';
         wudi.style.display='block';
+        zhongjian.style.display='none';
+        shijia.style.textDecoration='underline';
     }else if(h>=1500&&h<2000){
         headerTop.style.background = "rgba(0,0,0," +rell+ ")";
         zhe.style.color="rgba(255,255,255," +rell+ ")";
@@ -185,10 +205,12 @@ window.onscroll = function () {
         model3.innerHTML='Model X';
         headerTop2.style.background = "rgba(255,255,255," +rell+ ")";
         na.style.color="rgba(0,0,0," +rell+ ")";
-        zuoyi.style.display='block';
-        youyi.style.display='block';
+        headerTop.style.display='block';
+        headerTop2.style.display='block';
         wudi.style.display='block';
-    }else if(h>=2000&&h<2100){
+        zhongjian.style.display='none';
+        shijia.style.textDecoration='underline';
+    }else if(h>=2000&&h<2200){
         headerTop.style.background = "rgba(0,0,0,1)";
         zhe.style.color="rgba(255,255,255,1)";
         model3.style.color="rgba(0,0,0,1)";  
@@ -198,30 +220,84 @@ window.onscroll = function () {
         zhe.innerHTML="定制我的Model X";   
         na.innerHTML="了解Model X";
         model3.innerHTML='Model X';
+        headerTop.style.display='block';
+        headerTop2.style.display='block';
+        wudi.style.display='block';
+        shijia.innerHTML='预约试驾';
+        zhongjian.style.display='none';
+        shijia.style.textDecoration='underline';
+    }else if(h>=2200&&h<=2400){
+        model3.style.color="rgba(0,0,0," +reu+ ")";
         zuoyi.style.display='block';
         youyi.style.display='block';
+        shijia.innerHTML='预约试驾';
+        model3.innerHTML='Model X';
+        shijia.color="rgba(0,0,0," +reu+ ")";
+        zhongjian.style.display='none';
+        headerTop.style.display='block';
+        headerTop2.style.display='block';
+        headerTop.style.background = "rgba(0,0,0," +reu+ ")"; 
+        headerTop2.style.background = "rgba(255,255,255," +reu+ ")"; 
         wudi.style.display='block';
-    }else if(h>=2100&&h<=2200){
-        model3.style.color="rgba(0,0,0," +reu+ ")";
-        zuoyi.style.display='none';
-        youyi.style.display='none';
+        shijia.style.textDecoration='underline';
+
+    }else if(h>2200&&h<=2600){
+        headerTop.style.display='none';
+        headerTop2.style.display='none';
+        shijia.innerHTML='全方位能源供应';
+        model3.innerHTML='太阳能设备和 Powerwall';
+        shijia.style.color="rgba(0,0,0,0)";
+        model3.style.color="rgba(0,0,0,0)";
+        zhongjian.style.display='none';
+        wudi.style.display='block';
+        shijia.style.textDecoration='underline';
+    }else if(h>2600&&h<=2800)  {
+        headerTop.style.display='none';
+        headerTop2.style.display='none';
+        zhongjian.style.display='block';
+        wudi.style.display='block';
+        shijia.innerHTML='全方位能源供应';
+        model3.innerHTML='太阳能设备和 Powerwall';
+        model3.style.color="rgba(0,0,0," +ree+ ")";
+        shijia.style.color="rgba(0,0,0," +ree+ ")";
+        shijia.style.textDecoration='none';
+        knowALot.style.color="rgba(255,255,255," +ree+ ")";
+        zhongjian.style.background = "rgba(0,0,0," +ree+ ")";
+    } else if(h>=2800&&h<3000){
+        headerTop.style.display='none';
+        headerTop2.style.display='none';
+        zhongjian.style.display='block';
+        wudi.style.display='block';
+        shijia.innerHTML='全方位能源供应';
+        model3.innerHTML='太阳能设备和 Powerwall';
+        model3.style.color="rgba(0,0,0,1)";
+        shijia.style.color="rgba(0,0,0,1)";
+        shijia.style.textDecoration='none';
+        knowALot.style.color="rgba(255,255,255,1)";
+        zhongjian.style.background = "rgba(0,0,0,1)";
+    }else if(h>=3000&&h<=3600){
+        headerTop.style.display='none';
+        headerTop2.style.display='none';
+        zhongjian.style.display='block';
+        wudi.style.display='block';
+        shijia.innerHTML='全方位能源供应';
+        model3.innerHTML='太阳能设备和 Powerwall';
+        shijia.style.textDecoration='none';
+        model3.style.color="rgba(0,0,0," +reel+ ")";
+        shijia.style.color="rgba(0,0,0," +reel+ ")";
+        knowALot.style.color="rgba(255,255,255," +reel+ ")";
+        zhongjian.style.background = "rgba(0,0,0," +reel+ ")";
+    }else {
+        headerTop.style.display='none';
+        headerTop2.style.display='none';
+        zhongjian.style.display='block';
         wudi.style.display='none';
-    }else if(h>2200&&h<=2500){
-        zuoyi.style.display='none';
-        youyi.style.display='none';
-        wudi.style.display='none';
+        model3.innerHTML='充电产品和精品配件';
+        knowALot.innerHTML='立即购买';
+        model3.style.color="rgba(0,0,0," +relt+ ")";
+        knowALot.style.color="rgba(255,255,255," +relt+ ")";
+        zhongjian.style.background = "rgba(0,0,0," +relt+ ")";
+
+        
     }
-
-    
-    
-
 }
-// background-image: url("../source/backgroundimg3.jpg")  ;
-    
-// height: 980px;
-// width: 100%;
-// margin:0;
-// background-size:cover;
-// padding: 0%;
-// float: left;
-// position: relative;

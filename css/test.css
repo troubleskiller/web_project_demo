@@ -43,6 +43,16 @@ body{
     float: left;
     position: relative;
 }
+#bac5{
+    height: 980px;
+    width: 100%;
+    background-image: url("../source/bac52.jpg") ;  
+    margin:0;
+    background-size: cover;
+    padding: 0%;
+    float: left;
+    position: relative;
+}
 #one{
     font-size: 40px;
     position: fixed;
@@ -198,7 +208,7 @@ a{
     height: 40px;
     border-radius:10px;  
     z-index: 999; 
-    float:right;
+    float:left;
     overflow:hidden;
 }
 #youyi{
@@ -212,10 +222,23 @@ a{
     height: 40px;
     border-radius:10px;
     z-index: 999;
+    float:left;
+    overflow:hidden;
+}
+#zhongjian{
+    margin:0%;
+    padding: 0%;
+    background-color: black;
+    position: fixed;
+    top: 86%;
+    left:43%;
+    width: 264px;
+    height: 40px;
+    border-radius:10px;  
+    z-index: 999; 
     float:right;
     overflow:hidden;
 }
-
 
 #zhe{
     color: white;
@@ -226,6 +249,11 @@ a{
     color: black;
     margin: 0 auto; 
     text-align: center;  
+}
+#knowALot{
+    color: white;
+    margin: 0 auto; 
+    text-align: center;
 }
 .juzhong{
     display:flex;
@@ -246,5 +274,19 @@ a{
     margin:0px;
     padding: 0px;
 }
-
+#tabb{
+    position: relative;
+    left: 74%;
+    margin:0%;
+    padding: 0%x;
+    font-size: small;
+    float: left;
+}
+#taba{
+    position: relative;
+    top:96.5%;
+    margin:0%;
+    padding: 0%; 
+    float: left;   
+}
 
