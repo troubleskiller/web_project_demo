@@ -3,14 +3,16 @@ body{
     padding: 0%;
 }
 #backimgone{
-    background-image: url("../source/backgroundimg1.webp") ;
+    background-image: url("../source/backgroundimg1.webp")  ;
+    
     height: 980px;
     width: 100%;
     margin:0;
-    background-size: cover;
+    background-size:cover;
     padding: 0%;
     float: left;
     position: relative;
+    
 }
 #bac2{
     height: 980px;

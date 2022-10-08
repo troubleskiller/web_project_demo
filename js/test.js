@@ -14,8 +14,7 @@ var ab1=document.getElementsByClassName('top1');
 for(var i=0;i<ab1.length;i++){
     ab1[i].onmouseover=function(){
     this.style.backgroundColor='#999';
-    
-}
+    } 
 }
 for(var i=0;i<ab1.length;i++){
     ab1[i].onmouseleave=function(){
@@ -122,31 +121,3 @@ window.onscroll = function () {
     
 
 }
-// 下面是具有借鉴意义的代码块
-/*    if (h >= 42) {       //header的高度是40px;     
-        headerTop.style.background = "#fff";
-        headerTop.style.color = "rgba(66,65,66,1)";
-       // 设置导航栏中的文字样式
-        navtext.style.background = "#fff";
-        navtext.style.color = "rgba(66,65,66,1)";
-         // 设置导航栏中的返回图标icon样式
-        back.style.background = "#fff";
-        back.style.fill = "rgba(19,146,245,1)";
-    } else {
-        if (h < 10) {
-           //40*2.5=100;这样透明度就可以由0渐变到100%；
-           headerTop.style.background = "rgba(255,255,255,0." + h * 2.5 + ")";
-             headerTop.style.color = "rgba(66,66,66,0." + h * 2.5 + ")";
-             navtext.style.background = "rgba(255,255,255,0." + h * 2.5 + ")";
-             navtext.style.color = "rgba(66,66,66,0." + h * 2.5 + ")";
-             back.style.background = "rgba(255,255,255,0." + h * 2.5 + ")";
-             back.style.fill = "rgba(19,146,245,0." + h * 2.5 + ")";           
-        } else if (h > 10 && h <= 42) {
-            headerTop.style.background = "rgba(255,255,255,0.0" + h * 2.5 + ")";
-             headerTop.style.color = "rgba(66,66,66,0.0" + h * 2.5 + ")";
-            navtext.style.background = "rgba(255,255,255,0.0" + h * 2.5 + ")";
-             navtext.style.color = "rgba(66,66,66,0.0" + h * 2.5 + ")";
-            back.style.background = "rgba(255,255,255,0.0" + h * 2.5 + ")";
-             back.style.fill = "rgba(19,146,246,0.0" + h * 2.5 + ")";
-    }
-*/
