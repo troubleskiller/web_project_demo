@@ -350,7 +350,6 @@ window.onscroll = function () {
         zhongjian.style.background = "rgba(0,0,0," +relt+ ")";
         knowALot.display='block';
         knowALot.href="https://shop.tesla.cn/";
-
         
     }
 }
