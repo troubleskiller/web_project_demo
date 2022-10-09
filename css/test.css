@@ -168,9 +168,7 @@ a{
 .over{
     background-color: #999;
 }
-
-#model3{
-    
+#model3{    
     font-size: 269%;
     position: fixed;
     top:15%; 
@@ -178,17 +176,14 @@ a{
     margin: 0%;
     z-index: 999;
     padding: 0%;
-    width:100%;
-    
+    width:100%;    
     text-align: center;
-
 }
 #wudi{
     position: fixed;
     top:22%;
     margin: 0%; 
-    text-align: center;
-    
+    text-align: center;   
     float:right;
     overflow:hidden;
     z-index: 999;
@@ -238,6 +233,8 @@ a{
     z-index: 999; 
     float:right;
     overflow:hidden;
+    display: none;
+    
 }
 
 #zhe{
@@ -254,6 +251,7 @@ a{
     color: white;
     margin: 0 auto; 
     text-align: center;
+    
 }
 .juzhong{
     display:flex;
