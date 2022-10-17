@@ -142,16 +142,54 @@ body{
     font-size: 100%; 
     z-index: 999;      
 }
+*{
+    box-sizing: border-box;
+}
+
 #ten{
     position: fixed;
     right: 0%;
     top:2%;
     margin:0%;  
-    float: right; 
     overflow:hidden;
     font-size: 100%; 
-    z-index: 999;      
+    z-index: 999; 
+    display: inline-block;
+    height: 420px;
 }
+.top,.top1{
+    border-radius: 5%;
+}
+#but{
+    background-color: transparent;
+    border: none;
+    text-decoration: none;
+}
+#ten:hover #but{
+    background-color: #999;
+
+}
+#daohang{
+    display:none;
+    width:85px;
+    z-index: 999;
+    background-color:white;
+}
+#ten:hover #daohang{
+    display: block;
+}
+.optt{
+    background-color: transparent;
+    text-align: center;
+    text-decoration: none;
+    position: relative;
+    left:6%;
+    
+}
+.optt:hover{
+    background-color: rgba(153,153,153,0.5);
+}
+
 /* .top:hover{
     background-color: #999;
     opacity: 0.4;
@@ -174,7 +212,7 @@ a{
     top:15%; 
     float:right;
     margin: 0%;
-    z-index: 999;
+    z-index: 800;
     padding: 0%;
     width:100%;    
     text-align: center;
@@ -186,7 +224,7 @@ a{
     text-align: center;   
     float:right;
     overflow:hidden;
-    z-index: 999;
+    z-index: 800;
     width:100%;
 }
 #shijia{
@@ -202,7 +240,7 @@ a{
     width: 264px;
     height: 40px;
     border-radius:10px;  
-    z-index: 999; 
+    z-index: 800; 
     float:left;
     overflow:hidden;
 }
@@ -216,7 +254,7 @@ a{
     width: 264px;
     height: 40px;
     border-radius:10px;
-    z-index: 999;
+    z-index: 800;
     float:left;
     overflow:hidden;
 }
@@ -230,7 +268,7 @@ a{
     width: 264px;
     height: 40px;
     border-radius:10px;  
-    z-index: 999; 
+    z-index: 800; 
     float:right;
     overflow:hidden;
     display: none;
