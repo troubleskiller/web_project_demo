@@ -73,7 +73,7 @@ window.onscroll = function () {
     var ree=0.005*h-13;
     var reel=-0.005*h+16;
     var relt=0.005*h-18;
-    console.log(reu);
+    
     var headerTop = document.getElementById("zuoyi");
     var headerTop2=document.getElementById("youyi");
     var zhe=document.getElementById("zhe");
