@@ -1,0 +1,352 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+#shopimgone{
+    background-image: url("../source/shop1.webp")  ;
+    height: 980px;
+    width: 100%;
+    margin:0;
+    background-size:cover;
+    padding: 0%;
+    float: left;
+    position: relative;
+    
+}
+#bac2{
+    height: 980px;
+    width: 100%;
+    background-image: url("../source/backgroundimgtwo.jpg") ;  
+    margin:0;
+    background-size: cover;
+    padding: 0%;
+    float: left;
+    position: relative;
+}
+#bac3{
+    height: 980px;
+    width: 100%;
+    background-image: url("../source/modelx.jpg") ;  
+    margin:0;
+    background-size: cover;
+    padding: 0%;
+    float: left;
+    position: relative;
+}
+#bac4{
+    height: 980px;
+    width: 100%;
+    background-image: url("../source/bac4.jpg") ;  
+    margin:0;
+    background-size: cover;
+    padding: 0%;
+    float: left;
+    position: relative;
+}
+#bac5{
+    height: 980px;
+    width: 100%;
+    background-image: url("../source/bac52.jpg") ;  
+    margin:0;
+    background-size: cover;
+    padding: 0%;
+    float: left;
+    position: relative;
+}
+#dao{
+    width:100%;
+    height:50px;
+    position: fixed;
+    
+}
+#one{
+    font-size: 40px;
+    position: fixed;
+    left: 2%;
+    top :1%;
+    font-family: fantasy;
+    float: left;
+    z-index: 999;
+    color:white;
+}
+#oneHalf{
+    font-size: 40px;
+    position: fixed;
+    left: 9%;
+    top :1%;
+    font-family: fantasy;
+    float: left;
+    z-index: 999;
+    color:white;
+}
+#two{
+    position: fixed;
+    left: 31%;
+    top:2%;
+    margin:0%; 
+    float: left;
+    overflow:hidden;
+    font-size: 100%; 
+    z-index: 999;  
+    color:white;  
+}
+#three{
+    position: fixed;
+    left: 37.3%;
+    top:2%;
+    margin:0%;  
+    float: left; 
+    overflow:hidden;
+    font-size: 100%; 
+    z-index: 999;   
+    color:white;
+}
+#four{
+    position: fixed;
+    left: 43.6%;
+    top:2%;
+    margin:0%; 
+    float: left;
+    overflow:hidden;
+    font-size: 100%;   
+    z-index: 999;  
+    color:white; 
+}
+#five{
+    position: fixed;
+    left: 49.9%;
+    top:2%;
+    margin:0%;   
+    float: left; 
+    overflow:hidden;
+    font-size: 100%;  
+    z-index: 999; 
+    color:white;
+}
+
+#six{
+    position: fixed;
+    left: 56.2%;
+    top:2%;
+    margin:0%; 
+    float: left;
+    overflow:hidden;
+    font-size: 100%; 
+    z-index: 999; 
+    color:white;    
+}
+#seven{
+    position: fixed;
+    left: 63.6%;
+    top:2%;
+    margin:0%; 
+    float: left; 
+    overflow:hidden;
+    font-size: 100%;
+    z-index: 999; 
+    color:white;   
+}
+#eight{
+    position: fixed;
+    right:7.3%;
+    top:2%;
+    margin:0%;
+    float: right;
+    overflow:hidden;
+    font-size: 100%; 
+    z-index: 999; 
+    color:white;    
+}
+#nine{
+    position: fixed;
+    right: 4.3%;
+    top:2%;
+    margin:0%; 
+    float: right; 
+    overflow:hidden;
+    font-size: 100%; 
+    z-index: 999;      
+}
+*{
+    box-sizing: border-box;
+}
+
+#ten{
+    position: fixed;
+    right: 0%;
+    top:2%;
+    margin:0%;  
+    overflow:hidden;
+    font-size: 100%; 
+    z-index: 999; 
+    display: inline-block;
+    height: 420px;
+}
+.top,.top1{
+    border-radius: 5%;
+}
+#but{
+    background-color: transparent;
+    border: none;
+    text-decoration: none;
+}
+#ten:hover #but{
+    background-color: #999;
+
+}
+#daohang{
+    display:none;
+    width:85px;
+    z-index: 999;
+    background-color:white;
+}
+#ten:hover #daohang{
+    display: block;
+}
+.optt{
+    background-color: transparent;
+    text-align: center;
+    text-decoration: none;
+    position: relative;
+    left:6%;
+    
+}
+.optt:hover{
+    background-color: rgba(153,153,153,0.5);
+}
+
+/* .top:hover{
+    background-color: #999;
+    opacity: 0.4;
+} */
+
+/* .top1:hover{
+    background-color: #999;
+    opacity: 0.4;
+} */
+a{
+    text-decoration: none;
+    color: black;
+}
+.over{
+    background-color: #999;
+}
+#model3{    
+    font-size: 269%;
+    position: fixed;
+    top:15%; 
+    float:right;
+    margin: 0%;
+    z-index: 800;
+    padding: 0%;
+    width:100%;    
+    text-align: center;
+}
+#wudi{
+    position: fixed;
+    top:22%;
+    margin: 0%; 
+    text-align: center;   
+    float:right;
+    overflow:hidden;
+    z-index: 800;
+    width:100%;
+}
+#shijia{
+    text-decoration: underline;
+}
+#zuoyi{
+    margin:0%;
+    padding: 0%;
+    background-color: black;
+    position: fixed;
+    top: 86%;
+    left:36%;
+    width: 264px;
+    height: 40px;
+    border-radius:10px;  
+    z-index: 800; 
+    float:left;
+    overflow:hidden;
+}
+#youyi{
+    margin:0;
+    padding: 0;
+    background-color: white;
+    position: fixed;
+    top:86%;
+    left: 52%;
+    width: 264px;
+    height: 40px;
+    border-radius:10px;
+    z-index: 800;
+    float:left;
+    overflow:hidden;
+}
+#zhongjian{
+    margin:0%;
+    padding: 0%;
+    background-color: black;
+    position: fixed;
+    top: 86%;
+    left:43%;
+    width: 264px;
+    height: 40px;
+    border-radius:10px;  
+    z-index: 800; 
+    float:right;
+    overflow:hidden;
+    display: none;
+    
+}
+
+#zhe{
+    color: white;
+    margin: 0 auto; 
+    text-align: center;
+}
+#na{
+    color: black;
+    margin: 0 auto; 
+    text-align: center;  
+}
+#knowALot{
+    color: white;
+    margin: 0 auto; 
+    text-align: center;
+    
+}
+.juzhong{
+    display:flex;
+    line-height: 40px;
+}
+#img{
+    width: 40px;
+    height: 20px;
+    position: relative;
+}
+#jiantou{
+    position: relative;
+    left: 50%;
+    top: 92%;
+    z-index: 15;
+    width: 40px;
+    height: 20px;
+    margin:0px;
+    padding: 0px;
+}
+#tabb{
+    position: relative;
+    left: 74%;
+    margin:0%;
+    padding: 0%x;
+    font-size: small;
+    float: left;
+}
+#taba{
+    position: relative;
+    top:96.5%;
+    margin:0%;
+    padding: 0%; 
+    float: left;   
+}
