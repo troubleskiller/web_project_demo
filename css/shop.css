@@ -4,7 +4,7 @@ body{
 }
 #shopimgone{
     background-image: url("../source/shop1.webp")  ;
-    height: 980px;
+    height: 969px;
     width: 100%;
     margin:0;
     background-size:cover;
@@ -12,6 +12,43 @@ body{
     float: left;
     position: relative;
     
+}
+.top2 {
+    margin-right: 10px;
+    width: 263px;
+    height: 40px;
+    border: 1px solid #ccc;
+    background-color: #f2f2f5;
+    margin: 10px 0;
+    border-radius: 10px;
+    position: relative;
+    left:78%;   
+    top:-4.5%;
+}
+.serch {
+    height: 39px;
+    width: 230px;
+    float: left;
+    padding: 0 8px;
+    outline: none;
+    background-color: #f2f2f5;
+    border:none;
+    border-radius: 10px;
+}
+.pic {
+    align-items: center;
+    height: 30px;
+    width: 30px;
+    float: right;
+    padding-top: 5px;
+}
+.pic img{
+    height: 30px;
+    width: 30px;
+}
+#search2{
+    width: 35px;
+    height:35px;
 }
 #bac2{
     height: 980px;
@@ -60,7 +97,7 @@ body{
     
 }
 #one{
-    font-size: 40px;
+    font-size: 34px;
     position: fixed;
     left: 2%;
     top :1%;
@@ -70,7 +107,7 @@ body{
     color:white;
 }
 #oneHalf{
-    font-size: 40px;
+    font-size: 29px;
     position: fixed;
     left: 9%;
     top :1%;
@@ -160,7 +197,7 @@ body{
 #nine{
     position: fixed;
     right: 4.3%;
-    top:2%;
+    top:1.5%;
     margin:0%; 
     float: right; 
     overflow:hidden;
@@ -182,7 +219,12 @@ body{
     display: inline-block;
     height: 420px;
 }
-.top,.top1{
+.top{
+    border-radius: 5%;
+
+}
+
+.top1{
     border-radius: 5%;
 }
 #but{
