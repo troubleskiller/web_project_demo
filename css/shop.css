@@ -96,6 +96,8 @@ body{
     position: fixed;
     
 }
+
+
 #one{
     font-size: 34px;
     position: fixed;
@@ -220,10 +222,15 @@ body{
     height: 420px;
 }
 .top{
-    border-radius: 5%;
+    border-radius: 5%;   
 
 }
-
+.top:hover{  
+    cursor:pointer;
+    background-color: rgba(153,153,153,0.3);
+    transition: 0.6s linear;
+        
+}
 .top1{
     border-radius: 5%;
 }
@@ -231,10 +238,41 @@ body{
     background-color: transparent;
     border: none;
     text-decoration: none;
+    color: white;
 }
 #ten:hover #but{
     background-color: #999;
 
+}
+#dao:hover{
+    background-color: white;
+}
+#dao:hover #one{
+    color: black;
+}
+#dao:hover #oneHalf{
+    color: black;
+}
+#dao:hover #two{
+    color:black;
+}
+#dao:hover #three{
+    color:black;
+}
+#dao:hover #four{
+    color:black;
+}
+#dao:hover #five{
+    color:black;
+}
+#dao:hover #six{
+    color:black;
+}
+#dao:hover #but{
+    color:black;
+}
+#dao:hover #search2{
+    content: url("../source/shopcar.png");
 }
 #daohang{
     display:none;
@@ -274,25 +312,28 @@ a{
     background-color: #999;
 }
 #model3{    
-    font-size: 269%;
-    position: fixed;
-    top:15%; 
+    font-size: 240%;
+    position: relative;
+    top:73.5%; 
     float:right;
     margin: 0%;
     z-index: 800;
     padding: 0%;
     width:100%;    
     text-align: center;
+    color: white;
 }
 #wudi{
-    position: fixed;
-    top:22%;
+    position:relative;
+    top:74%;
     margin: 0%; 
     text-align: center;   
     float:right;
     overflow:hidden;
     z-index: 800;
     width:100%;
+    color: white;
+    font-size: 150%;
 }
 #shijia{
     text-decoration: underline;
@@ -328,18 +369,16 @@ a{
 #zhongjian{
     margin:0%;
     padding: 0%;
-    background-color: black;
-    position: fixed;
-    top: 86%;
-    left:43%;
+    background-color: white;
+    position: relative;
+    top: 78%;
+    left:-43%;
     width: 264px;
     height: 40px;
     border-radius:10px;  
     z-index: 800; 
     float:right;
-    overflow:hidden;
-    display: none;
-    
+    overflow:hidden;    
 }
 
 #zhe{
@@ -353,29 +392,37 @@ a{
     text-align: center;  
 }
 #knowALot{
-    color: white;
+    color: black;
     margin: 0 auto; 
     text-align: center;
-    
+    line-height: 40px;
+    display: block;
+    float: left;
+    left: 0%;
+    position: relative;
+    width: 264px;
+    height:40px;
 }
-.juzhong{
+#juzhong{
     display:flex;
     line-height: 40px;
+    text-align: center;
+    display: block;
 }
 #img{
     width: 40px;
     height: 20px;
     position: relative;
 }
-#jiantou{
-    position: relative;
-    left: 50%;
-    top: 92%;
-    z-index: 15;
-    width: 40px;
-    height: 20px;
-    margin:0px;
-    padding: 0px;
+#chat{
+    position: fixed;
+    top:85%;
+    left:96%;
+    
+}
+#chat1{
+    width:45px;
+    height: 45px;
 }
 #tabb{
     position: relative;
