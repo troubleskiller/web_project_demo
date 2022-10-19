@@ -466,3 +466,48 @@ a{
     height: 22px;
     line-height: 22px;    
 }
+#opttwo{
+    position:fixed;
+    height: 515px;
+    width: 100%;
+    top:5.2%;
+    background-color: white;
+    z-index: 1;
+    display: none;
+    
+}
+#jiating{
+    position: fixed;
+    display: inline-block;
+    height:50px;
+    width: 100px;
+    top:13%;
+    left:5%;
+}
+#lvxing{
+    position: fixed;
+    display: inline-block;
+    height:50px;
+    width: 100px;
+    top:13%;
+    left:19%;
+}
+#fuwubao{
+    position: fixed;
+    display: inline-block;
+    height: 350px;
+    width: 500px;
+    top: 13%;
+    left: 66%;
+    
+}
+#fuwulink{
+    height: 350px;
+    width: 500px;
+}
+#fuwuwenzi{
+    width: 500px;
+    height:50px;
+    line-height: 50px;
+    font-size: 20px;
+}

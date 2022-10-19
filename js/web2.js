@@ -9,8 +9,10 @@ var five=document.getElementById('five');
 var six=document.getElementById('six');
 var but=document.getElementById('but');
 var search2=document.getElementById('search2');
+var opttwo=document.getElementById('opttwo');
 two.onmouseover=function(){
     optone.style.display='block';
+    opttwo.style.display='none';
 }
 optone.onmouseover=function(){
     dao.style.backgroundColor='white';
@@ -63,6 +65,36 @@ dao.onmouseleave=function(){
     search2.setAttribute('src','../source/shopcarwhite.png');
     
 }
+three.onmouseover=function(){
+    opttwo.style.display='block';
+    optone.style.display='none';
+}
+opttwo.onmouseover=function(){
+    dao.style.backgroundColor='white';
+    one.style.color='black';
+    oneHalf.style.color='black'; 
+    two.style.color='black';
+    three.style.color='black';
+    four.style.color='black';
+    five.style.color='black';
+    six.style.color='black';
+    but.style.color='black';
+    search2.setAttribute('src','../source/shopcar.png');
+}
+opttwo.onmouseleave=function(){
+    dao.style.backgroundColor='transparent';
+    one.style.color='white';
+    oneHalf.style.color='white'; 
+    two.style.color='white';
+    three.style.color='white';
+    four.style.color='white';
+    five.style.color='white';
+    six.style.color='white';
+    but.style.color='white';
+    search2.setAttribute('src','../source/shopcarwhite.png');
+    opttwo.style.display='none';
+}
+
 
 
 
