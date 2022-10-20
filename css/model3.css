@@ -1,0 +1,200 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+#background{
+    background-image: url("../source/background1.webp")  ;
+    height: 969px;
+    width: 100%;
+    margin:0;
+    background-size:cover;
+    padding: 0%;
+    float: left;
+    position: relative;
+}
+#one{
+    font-size: 40px;
+    position: fixed;
+    left: 2%;
+    top :1%;
+    font-family: fantasy;
+    float: left;
+    z-index: 999;
+}
+#two{
+    position: fixed;
+    left: 31%;
+    top:2%;
+    margin:0%; 
+    float: left;
+    overflow:hidden;
+    font-size: 100%; 
+    z-index: 999;    
+}
+#three{
+    position: fixed;
+    left: 37.3%;
+    top:2%;
+    margin:0%;  
+    float: left; 
+    overflow:hidden;
+    font-size: 100%; 
+    z-index: 999;   
+}
+#four{
+    position: fixed;
+    left: 43.6%;
+    top:2%;
+    margin:0%; 
+    float: left;
+    overflow:hidden;
+    font-size: 100%;   
+    z-index: 999;   
+}
+#five{
+    position: fixed;
+    left: 49.9%;
+    top:2%;
+    margin:0%;   
+    float: left; 
+    overflow:hidden;
+    font-size: 100%;  
+    z-index: 999; 
+}
+#six{
+    position: fixed;
+    left: 56.2%;
+    top:2%;
+    margin:0%; 
+    float: left;
+    overflow:hidden;
+    font-size: 100%; 
+    z-index: 999;     
+}
+#seven{
+    position: fixed;
+    left: 63.6%;
+    top:2%;
+    margin:0%; 
+    float: left; 
+    overflow:hidden;
+    font-size: 100%;
+    z-index: 999;    
+}
+#eight{
+    position: fixed;
+    right:7.3%;
+    top:2%;
+    margin:0%;
+    float: right;
+    overflow:hidden;
+    font-size: 100%; 
+    z-index: 999;     
+}
+#nine{
+    position: fixed;
+    right: 4.3%;
+    top:2%;
+    margin:0%; 
+    float: right; 
+    overflow:hidden;
+    font-size: 100%; 
+    z-index: 999;      
+}
+*{
+    box-sizing: border-box;
+}
+
+#ten{
+    position: fixed;
+    right: 0%;
+    top:2%;
+    margin:0%;  
+    overflow:hidden;
+    font-size: 100%; 
+    z-index: 999; 
+    display: inline-block;
+    height: 420px;
+}
+.top,.top1{
+    border-radius: 5%;
+}
+#but{
+    background-color: transparent;
+    border: none;
+    text-decoration: none;
+}
+#ten:hover #but{
+    background-color: #999;
+
+}
+#daohang{
+    display:none;
+    width:85px;
+    z-index: 999;
+    background-color:black;
+}
+#ten:hover #daohang{
+    display: block;
+}
+.optt{
+    background-color: transparent;
+    text-align: center;
+    text-decoration: none;
+    position: relative;
+    left:6%;
+    
+}
+.optt:hover{
+    background-color: rgba(153,153,153,0.5);
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#model3{    
+    font-size: 269%;
+    position: fixed;
+    top:15%; 
+    float:right;
+    margin: 0%;
+    z-index: 800;
+    padding: 0%;
+    width:100%;    
+    text-align: center;
+    color: white;
+}
+#bottom{
+    height: 72px;
+    width: 762px;
+    position: relative;
+    bottom:-80%;
+    margin: 0 auto; 
+    text-align: center; 
+    color: white;
+}
+ul{
+    list-style: none;
+}
+.shang{
+    font-size: xx-large;
+}
+.xia{
+    font-size: x-small;
+}
+#bottomwz{
+    display: inline-block;
+}
+#buykuang{
+    display: inline-block;
+    border: 1px solid white;
+}
+#first{
+    display: inline-block;
+}
+#second{
+    display: inline-block;
+}
+#third{
+    display: inline-block;
+}
