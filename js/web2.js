@@ -10,9 +10,16 @@ var six=document.getElementById('six');
 var but=document.getElementById('but');
 var search2=document.getElementById('search2');
 var opttwo=document.getElementById('opttwo');
+var optthree=document.getElementById('optthree');
+var optfour=document.getElementById('optfour');
+var optfive=document.getElementById('optfive');
 two.onmouseover=function(){
     optone.style.display='block';
     opttwo.style.display='none';
+    optthree.style.display='none';
+    optfour.style.display='none';
+    optfive.style.display='none';
+
 }
 optone.onmouseover=function(){
     dao.style.backgroundColor='white';
@@ -68,6 +75,10 @@ dao.onmouseleave=function(){
 three.onmouseover=function(){
     opttwo.style.display='block';
     optone.style.display='none';
+    optthree.style.display='none';
+    optfour.style.display='none';
+    optfive.style.display='none';
+
 }
 opttwo.onmouseover=function(){
     dao.style.backgroundColor='white';
@@ -94,7 +105,99 @@ opttwo.onmouseleave=function(){
     search2.setAttribute('src','../source/shopcarwhite.png');
     opttwo.style.display='none';
 }
-
-
-
-
+optthree.onmouseover=function(){
+    dao.style.backgroundColor='white';
+    one.style.color='black';
+    oneHalf.style.color='black'; 
+    two.style.color='black';
+    three.style.color='black';
+    four.style.color='black';
+    five.style.color='black';
+    six.style.color='black';
+    but.style.color='black';
+    search2.setAttribute('src','../source/shopcar.png');
+}
+optthree.onmouseleave=function(){
+    dao.style.backgroundColor='transparent';
+    one.style.color='white';
+    oneHalf.style.color='white'; 
+    two.style.color='white';
+    three.style.color='white';
+    four.style.color='white';
+    five.style.color='white';
+    six.style.color='white';
+    but.style.color='white';
+    search2.setAttribute('src','../source/shopcarwhite.png');
+    optthree.style.display='none';
+}
+four.onmouseover=function(){
+    opttwo.style.display='none';
+    optone.style.display='none';
+    optthree.style.display='block';
+    optfour.style.display='none';
+    optfive.style.display='none';
+}
+five.onmouseover=function(){
+    opttwo.style.display='none';
+    optone.style.display='none';
+    optthree.style.display='none';
+    optfour.style.display='block';
+    optfive.style.display='none';
+}
+six.onmouseover=function(){
+    opttwo.style.display='none';
+    optone.style.display='none';
+    optthree.style.display='none';
+    optfour.style.display='none';
+    optfive.style.display='block';
+}
+optfour.onmouseover=function(){
+    dao.style.backgroundColor='white';
+    one.style.color='black';
+    oneHalf.style.color='black'; 
+    two.style.color='black';
+    three.style.color='black';
+    four.style.color='black';
+    five.style.color='black';
+    six.style.color='black';
+    but.style.color='black';
+    search2.setAttribute('src','../source/shopcar.png');
+}
+optfour.onmouseleave=function(){
+    dao.style.backgroundColor='transparent';
+    one.style.color='white';
+    oneHalf.style.color='white'; 
+    two.style.color='white';
+    three.style.color='white';
+    four.style.color='white';
+    five.style.color='white';
+    six.style.color='white';
+    but.style.color='white';
+    search2.setAttribute('src','../source/shopcarwhite.png');
+    optfour.style.display='none';
+}
+optfive.onmouseover=function(){
+    dao.style.backgroundColor='white';
+    one.style.color='black';
+    oneHalf.style.color='black'; 
+    two.style.color='black';
+    three.style.color='black';
+    four.style.color='black';
+    five.style.color='black';
+    six.style.color='black';
+    but.style.color='black';
+    search2.setAttribute('src','../source/shopcar.png');
+}
+optfive.onmouseleave=function(){
+    dao.style.backgroundColor='transparent';
+    one.style.color='white';
+    oneHalf.style.color='white'; 
+    two.style.color='white';
+    three.style.color='white';
+    four.style.color='white';
+    five.style.color='white';
+    six.style.color='white';
+    but.style.color='white';
+    search2.setAttribute('src','../source/shopcarwhite.png');
+    optfive.style.display='none';
+}
