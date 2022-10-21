@@ -13,13 +13,16 @@ var drop_down_menu_chongdianchanpin=document.getElementById('drop_down_menu_chon
 var drop_down_menu_peijian=document.getElementById('drop_down_menu_peijian');
 var drop_down_menu_peishi=document.getElementById('drop_down_menu_peishi');
 var drop_down_menu_zhoubian=document.getElementById('drop_down_menu_zhoubian');
+
+// 20-205行的js代码为针对meau bar的下拉菜单变化需求的制作
+
+
 dianpuhuodong.onmouseover=function(){
     drop_down_menu_dianpuhuodong.style.display='block';
     drop_down_menu_chongdianchanpin.style.display='none';
     drop_down_menu_peijian.style.display='none';
     drop_down_menu_peishi.style.display='none';
     drop_down_menu_zhoubian.style.display='none';
-
 }
 drop_down_menu_dianpuhuodong.onmouseover=function(){
     meaubar.style.backgroundColor='white';

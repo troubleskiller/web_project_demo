@@ -1,15 +1,16 @@
+// @author:xlk
+// 鼠标经过meau bar后div块的背景颜色发生变化
 var ab=document.getElementsByClassName('top');
-
 for(var i=0;i<ab.length;i++){
     ab[i].onmouseover=function(){
-    this.style.backgroundColor='#999';
-    
-}
+    this.style.backgroundColor='#999';   
+    }
 }
 for(var i=0;i<ab.length;i++){
     ab[i].onmouseleave=function(){
     this.style.backgroundColor='transparent';
-}}
+    }
+}
 var ab1=document.getElementsByClassName('top1');
 for(var i=0;i<ab1.length;i++){
     ab1[i].onmouseover=function(){
@@ -19,15 +20,18 @@ for(var i=0;i<ab1.length;i++){
 for(var i=0;i<ab1.length;i++){
     ab1[i].onmouseleave=function(){
     this.style.backgroundColor='transparent';
-}}
+    }
+}
+
+// 封装getstyle
 function getStyle ( obj, attr ) {
     return obj.currentStyle?obj.currentStyle[attr] : getComputedStyle( obj )[attr];
 }
-window.onload = function ()
-{
+
+// 制作向下箭头的抖动效果
+window.onload = function (){
 var img1 = document.getElementById('img');
 var arr = [];
-
         for(var i =4; i>=2; i=i-1){  
             arr.push(i);
             arr.push(-i);
@@ -35,22 +39,19 @@ var arr = [];
         function dou() { //抖动函数
             var i = 0;
             var timer = setInterval(function (){
-
                     if(i>=arr.length){
                         clearInterval(timer);
                     }
                     img1.style.top = arr[i] + 'px'; //根据arr数组定时修改div的top值。
                     i=i+1;
-
             },100);
-
-
         }
-
         setInterval(dou,2000); 
 }
+
+// 点击箭头时，将页面1滚动至页面2
 var ele = document.getElementById('input-style')
-function moveScrollIntoView(content) {
+function moveScrollIntoView(content){
     setTimeout(() => {
         ele.scrollIntoView(content)
     },500)
@@ -61,8 +62,7 @@ function moveScrollIntoView(content) {
 
 
 // 以下是制作滚轮滑动事件触发操作的代码块@author:xlk-20221006-15:44
-window.onscroll = function () {
-    
+window.onscroll = function () {    
     var h = document.documentElement.scrollTop || document.body.scrollTop;
     console.log(h);
     var rel=-0.01*h+2;    
@@ -118,12 +118,12 @@ window.onscroll = function () {
         shijia.style.textDecoration='underline';
         knowALot.display='none';
     } else if(h>=200&&h<=500){
-    headerTop.style.background = "rgba(0,0,0,0.0)";
-    zhe.style.color="rgba(255,255,255,0)";
-    model3.style.color="rgba(0,0,0,0)";
-    shijia.style.color="rgba(0,0,0,0)";
-    model3.innerHTML='Model S';
-    headerTop2.style.background = "rgba(255,255,255,0.0)";
+        headerTop.style.background = "rgba(0,0,0,0.0)";
+        zhe.style.color="rgba(255,255,255,0)";
+        model3.style.color="rgba(0,0,0,0)";
+        shijia.style.color="rgba(0,0,0,0)";
+        model3.innerHTML='Model S';
+        headerTop2.style.background = "rgba(255,255,255,0.0)";
         na.style.color="rgba(0,0,0,0)";
         na.innerHTML="了解Model Y";
         headerTop.style.display='block';
@@ -294,7 +294,6 @@ window.onscroll = function () {
         knowALot.display='none';        
         shijia.href="none";
         knowALot.href="https://www.tesla.cn/energy";
-
     }else if(h>2600&&h<=2800)  {
         headerTop.style.display='none';
         headerTop2.style.display='none';
@@ -309,7 +308,6 @@ window.onscroll = function () {
         zhongjian.style.background = "rgba(0,0,0," +ree+ ")";
         knowALot.display='block';
         knowALot.href="https://www.tesla.cn/energy";
-
     } else if(h>=2800&&h<3000){
         headerTop.style.display='none';
         headerTop2.style.display='none';
@@ -349,7 +347,6 @@ window.onscroll = function () {
         knowALot.style.color="rgba(255,255,255," +relt+ ")";
         zhongjian.style.background = "rgba(0,0,0," +relt+ ")";
         knowALot.display='block';
-        knowALot.href="https://shop.tesla.cn/";
-        
+        knowALot.href="https://shop.tesla.cn/";        
     }
 }
