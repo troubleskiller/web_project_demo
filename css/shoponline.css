@@ -703,14 +703,113 @@ a{
     font-size: larger;
     font-weight:bolder;
 }
-#shopimg2{
-    background-image: url("../source/shopwebsite/bacimg/bac1.webp")  ;
-    height: 969px;
+#shopimg2{   
+    height: 696px;
     width: 100%;
-    margin:0;
-    background-size:cover;
+    margin: 0;
     padding: 0%;
     float: left;
     position: relative;
     z-index: -999;
 }
+#bestSellers{
+    width: 100%;
+    height: 36px;
+    float: left;
+    position: relative;
+    top: 1%;
+}
+#bestSellersWord{
+    display: inline;
+    font-size: 28px;
+    line-height: 36px;
+    position: relative;
+    left: 1%;
+}
+#seeAll{
+    position: relative;
+    line-height: 36px;
+    left: 89%;
+    display: inline;
+}
+#taoCan{
+    height: 650px;
+    width: 100%;
+    position: relative;
+    top: 7%;
+}
+#myTaoCan{
+    position: relative;
+    height: 650px;
+    width: 580px;
+    display: inline-block;
+    top:-6%;
+    left:1%
+}
+#myTaoCanLink{
+    position: relative;
+    height: 650px;
+    width: 580px;
+    left: 1%;
+    top: 1%;
+}
+#myTaoCanImg{
+    position: relative;
+    height: 580px;
+    width: 580px;   
+}
+#myTaoCanWord{
+    width: 580px;
+    height: 44px;
+    line-height: 44px;
+}
+#mic{
+    position: relative;
+    height: 650px;
+    width: 580px;
+    display: inline-block;
+    left:4%;
+    top:-6%;
+}
+#micLink{
+    position: relative;
+    height: 650px;
+    width: 580px;
+    left: 1%;
+    top: 1%;
+}
+#micImg{
+    position: relative;
+    height:580px;
+    width:580px;
+}
+#micWord{
+    width: 580px;
+    height: 44px;
+    line-height: 44px;
+}
+#m3TaoCan{
+    position: relative;
+    height:650px;
+    width:580px;
+    left:7%;
+    top:-6%;
+    display: inline-block;
+}
+#m3TaoCanLink{
+    position: relative;
+    height:650px;
+    width:580px;
+}
+#m3TaoCanImg{
+    position: relative;
+    height:580px;
+    width:580px;
+}
+#m3TaoCanWord{
+    width: 580px;
+    height: 44px;
+    line-height: 44px;
+}
+
+
