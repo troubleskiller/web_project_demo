@@ -3,7 +3,7 @@ body{
     padding: 0%;
 }
 #shopimgone{
-    background-image: url("../source/shop1.webp")  ;
+    background-image: url("../source/shopwebsite/bacimg/bac1.webp")  ;
     height: 969px;
     width: 100%;
     margin:0;
@@ -50,54 +50,12 @@ body{
     width: 35px;
     height:35px;
 }
-#bac2{
-    height: 980px;
-    width: 100%;
-    background-image: url("../source/backgroundimgtwo.jpg") ;  
-    margin:0;
-    background-size: cover;
-    padding: 0%;
-    float: left;
-    position: relative;
-}
-#bac3{
-    height: 980px;
-    width: 100%;
-    background-image: url("../source/modelx.jpg") ;  
-    margin:0;
-    background-size: cover;
-    padding: 0%;
-    float: left;
-    position: relative;
-}
-#bac4{
-    height: 980px;
-    width: 100%;
-    background-image: url("../source/bac4.jpg") ;  
-    margin:0;
-    background-size: cover;
-    padding: 0%;
-    float: left;
-    position: relative;
-}
-#bac5{
-    height: 980px;
-    width: 100%;
-    background-image: url("../source/bac52.jpg") ;  
-    margin:0;
-    background-size: cover;
-    padding: 0%;
-    float: left;
-    position: relative;
-}
-#dao{
+#meaubar{
     width:100%;
     height:50px;
     position: fixed;   
 }
-
-
-#one{
+#shangbiao{
     font-size: 34px;
     position: fixed;
     left: 2%;
@@ -107,7 +65,7 @@ body{
     z-index: 999;
     color:white;
 }
-#oneHalf{
+#shangdianwenzi{
     font-size: 29px;
     position: fixed;
     left: 9%;
@@ -117,7 +75,7 @@ body{
     z-index: 999;
     color:white;
 }
-#two{
+#dianpuhuodong{
     position: fixed;
     left: 31%;
     top:2%;
@@ -128,7 +86,7 @@ body{
     z-index: 999;  
     color:white;  
 }
-#three{
+#chongdianchanpin{
     position: fixed;
     left: 37.3%;
     top:2%;
@@ -139,7 +97,7 @@ body{
     z-index: 999;   
     color:white;
 }
-#four{
+#peijian{
     position: fixed;
     left: 43.6%;
     top:2%;
@@ -150,7 +108,7 @@ body{
     z-index: 999;  
     color:white; 
 }
-#five{
+#peishi{
     position: fixed;
     left: 49.9%;
     top:2%;
@@ -162,7 +120,7 @@ body{
     color:white;
 }
 
-#six{
+#zhoubian{
     position: fixed;
     left: 56.2%;
     top:2%;
@@ -208,7 +166,6 @@ body{
 *{
     box-sizing: border-box;
 }
-
 #ten{
     position: fixed;
     right: 0%;
@@ -233,45 +190,45 @@ body{
 .top1{
     border-radius: 5%;
 }
-#but{
+#daohanglan{
     background-color: transparent;
     border: none;
     text-decoration: none;
     color: white;
 }
-#ten:hover #but{
+#ten:hover #daohanglan{
     background-color: #999;
 
 }
-#dao:hover{
+#meaubar:hover{
     background-color: white;
 }
-#dao:hover #one{
+#meaubar:hover #shangbiao{
     color: black;
 }
-#dao:hover #oneHalf{
+#meaubar:hover #shangdianwenzi{
     color: black;
 }
-#dao:hover #two{
+#meaubar:hover #dianpuhuodong{
     color:black;
 }
-#dao:hover #three{
+#meaubar:hover #chongdianchanpin{
     color:black;
 }
-#dao:hover #four{
+#meaubar:hover #peijian{
     color:black;
 }
-#dao:hover #five{
+#meaubar:hover #peishi{
     color:black;
 }
-#dao:hover #six{
+#meaubar:hover #zhoubian{
     color:black;
 }
-#dao:hover #but{
+#meaubar:hover #daohanglan{
     color:black;
 }
-#dao:hover #search2{
-    content: url("../source/shopcar.png");
+#meaubar:hover #search2{
+    content: url("../source/shopwebsite/barimg/top/shopcar.png");
 }
 
 
@@ -339,34 +296,6 @@ a{
 #shijia{
     text-decoration: underline;
 }
-#zuoyi{
-    margin:0%;
-    padding: 0%;
-    background-color: black;
-    position: fixed;
-    top: 86%;
-    left:36%;
-    width: 264px;
-    height: 40px;
-    border-radius:10px;  
-    z-index: 800; 
-    float:left;
-    overflow:hidden;
-}
-#youyi{
-    margin:0;
-    padding: 0;
-    background-color: white;
-    position: fixed;
-    top:86%;
-    left: 52%;
-    width: 264px;
-    height: 40px;
-    border-radius:10px;
-    z-index: 800;
-    float:left;
-    overflow:hidden;
-}
 #zhongjian{
     margin:0%;
     padding: 0%;
@@ -380,17 +309,6 @@ a{
     z-index: 0; 
     float:right;
     overflow:hidden;    
-}
-
-#zhe{
-    color: white;
-    margin: 0 auto; 
-    text-align: center;
-}
-#na{
-    color: black;
-    margin: 0 auto; 
-    text-align: center;  
 }
 #knowALot{
     color: black;
@@ -443,7 +361,7 @@ a{
 #liaotian{
     outline: none;
 }
-#optone{
+#drop_down_menu_dianpuhuodong{
     position:fixed;
     height: 203px;
     width: 100%;
@@ -466,7 +384,7 @@ a{
     height: 22px;
     line-height: 22px;    
 }
-#opttwo{
+#drop_down_menu_chongdianchanpin{
     position:fixed;
     height: 515px;
     width: 100%;
@@ -476,7 +394,7 @@ a{
     display: none;
     
 }
-#optthree{
+#drop_down_menu_peijian{
     position:fixed;
     height: 515px;
     width: 100%;
@@ -485,7 +403,7 @@ a{
     z-index: 2;  
     display: none;  
 }
-#optfour{
+#drop_down_menu_peishi{
     position:fixed;
     height: 515px;
     width: 100%;
@@ -494,13 +412,14 @@ a{
     z-index: 3;
     display: none;  
 }
-#optfive{
+#drop_down_menu_zhoubian{
     position:fixed;
     height: 515px;
     width: 100%;
     top:5.2%;
     background-color: white;
-    z-index: 4;  
+    z-index: 4; 
+    display: none; 
 }
 
 #xinglijia{
@@ -783,7 +702,7 @@ a{
     font-weight:bolder;
 }
 #shopimg2{
-    background-image: url("../source/shop1.webp")  ;
+    background-image: url("../source/shopwebsite/bacimg/bac1.webp")  ;
     height: 969px;
     width: 100%;
     margin:0;
