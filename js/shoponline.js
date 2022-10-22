@@ -204,3 +204,85 @@ drop_down_menu_zhoubian.onmouseleave=function(){
     search2.setAttribute('src','../source/shopwebsite/barimg/top/shopcarwhite.png');
     drop_down_menu_zhoubian.style.display='none';
 }
+
+
+
+window.onscroll = function () {    
+    var h = document.documentElement.scrollTop || document.body.scrollTop;
+    var changeTransparentFx=0.01*h;
+    if(h>=0&&h<100){
+        meaubar.style.background="rgba(255,255,255,"+changeTransparentFx+")";
+        shangbiao.style.color='white';
+        shangdianwenzi.style.color='white'; 
+        dianpuhuodong.style.color='white';
+        chongdianchanpin.style.color='white';
+        peijian.style.color='white';
+        peishi.style.color='white';
+        zhoubian.style.color='white';
+        daohanglan.style.color='white';
+        search2.setAttribute('src','../source/shopwebsite/barimg/top/shopcarwhite.png');
+    }else{
+        meaubar.style.backgroundColor='white';
+        shangbiao.style.color='black';
+        shangdianwenzi.style.color='black'; 
+        dianpuhuodong.style.color='black';
+        chongdianchanpin.style.color='black';
+        peijian.style.color='black';
+        peishi.style.color='black';
+        zhoubian.style.color='black';
+        daohanglan.style.color='black';
+        search2.setAttribute('src','../source/shopwebsite/barimg/top/shopcar.png');
+    }
+}
+
+var peripheralProductsDiv=document.getElementById('peripheralProductsDiv');
+var peripheralProductsLink=document.getElementById('peripheralProductsLink');
+var nanZhuangDiv=document.getElementById('nanZhuangDiv');
+var nvZhuangDiv=document.getElementById('nvZhuangDiv');
+var tongZhuangDiv=document.getElementById('tongZhuangDiv');
+var nanZhuangLink=document.getElementById('nanZhuangLink');
+var nvZhuangLink=document.getElementById('nvZhuangLink');
+var tongZhuangLink=document.getElementById('tongZhuangLink');
+peripheralProductsDiv.onmouseover=function(){
+    this.style.backgroundColor='black';
+    peripheralProductsLink.style.color='white';
+}
+peripheralProductsDiv.onmouseleave=function(){
+    this.style.backgroundColor='white';
+    peripheralProductsLink.style.color='black';
+}
+nanZhuangDiv.onmouseover=function(){
+    this.style.backgroundColor='black';
+    nanZhuangLink.style.color='white';
+}
+nanZhuangDiv.onmouseleave=function(){
+    this.style.backgroundColor='white';
+    nanZhuangLink.style.color='black';
+}
+nvZhuangDiv.onmouseover=function(){
+    this.style.backgroundColor='black';
+    nvZhuangLink.style.color='white';
+}
+nvZhuangDiv.onmouseleave=function(){
+    this.style.backgroundColor='white';
+    nvZhuangLink.style.color='black';
+}
+tongZhuangDiv.onmouseover=function(){
+    this.style.backgroundColor='black';
+    tongZhuangLink.style.color='white';
+}
+tongZhuangDiv.onmouseleave=function(){
+    this.style.backgroundColor='white';
+    tongZhuangLink.style.color='black';
+}
+
+var closeLink=document.getElementById('closeLink');
+var feedbackMeau=document.getElementById('feedbackMeau');
+var liaotian=document.getElementById('liaotian');
+closeLink.onclick=function(){
+    feedbackMeau.style.display='none';
+}
+liaotian.onclick=function(){
+    feedbackMeau.style.display='block';
+}
+

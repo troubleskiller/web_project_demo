@@ -5,6 +5,35 @@
     <title>在线商店</title>
     <!-- 导入css文件 -->
     <link rel="stylesheet" type="text/css" href="../css/shoponline.css ">
+    <style>
+        /* css3特性：在屏幕缩小时隐藏模块 */
+        @media only screen and (max-width: 1200px) {
+            #dianpuhuodong,#chongdianchanpin,#peijian,#peishi,#zhoubian{
+                display: none;
+            }
+        }
+        @media only screen and (max-height: 800px){
+            #zhong{
+                display: none;
+            }
+        }
+        @media only screen and (max-width: 1709px) {
+            .top2{
+                display: none;
+            }
+        }
+        @media only screen and (max-width: 1550px) {
+            #nine{
+                display: none;
+            }
+
+        }
+        @media only screen and (max-width: 1650px) {
+            #shangdianwenzi{
+                display: none;
+            }
+        }
+    </style>
     <meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
 </head>
 <body>
@@ -183,6 +212,22 @@
         <div id="wudi">随时在家为特斯拉充电</div>
         <div id="zhongjian"><div id="juzhong"><a href="https://shop.tesla.cn/product/wall-connector"  id="knowALot"target='_blank'>立即订购</a></div></div>
         <div id="chat"><button id="liaotian"><img src="../source/shopwebsite/pageimg/chat1.png" id="chat1"></button></div>   
+        <div id="feedbackMeau">
+            <div id="formalProblem">
+                <span id="formalProblem">常见问题</span>
+                <a href="#" id="closeLink"><img src="../source/shopwebsite/pageimg/close.png" id="closeImg"></a>
+            </div>
+            <div id="consultOnline">在线咨询</div>
+            <div id="name">名字</div>
+            <input type="text" name="uername" id="username"><br>
+            <div id="xingShi">姓氏</div>
+            <input type="text" name="xingShi" id="xingShiKuang"><br>
+            <div id="emailadress">电子邮件地址</div>
+            <input type="text" name="emailadress" id="emailadressKuang"><br>
+            <div id="consultingTopic">咨询主题（可选）</div>
+            <input type="text" name="consultingTopic" id="consultingTopicKuang"><br>
+            <input type="submit" name="startDialogue" value="开启对话" id="submitButton">
+        </div>
     </div>
     <!-- 在线商店页面2 -->
     <div id="shopimg2">
@@ -211,6 +256,85 @@
                     <div id="m3TaoCanWord">Model&nbsp3&nbsp脚垫套餐</div>
                 </a>
             </div>
+        </div>
+    </div>
+    <div id="shopPage3">
+        <div id="msPeiJianWord">Model&nbspS&nbsp配件</div>
+        <div id="msPeiJian">
+            <div id="msPeiJianDiv">
+                <a href="https://shop.tesla.cn/category/vehicle-accessories/model-s" id="msPeiJianLink">立即订购</a>
+            </div>
+        </div>
+    </div>
+    <div id="shopPage4">
+        <div id="m3PeiJianWord">Model&nbsp3&nbsp配件</div>
+        <div id="m3PeiJian">
+            <div id="m3PeiJianDiv">
+                <a href="https://shop.tesla.cn/category/vehicle-accessories/model-3" id="m3PeiJianLink">立即订购</a>
+            </div>
+        </div>
+    </div>
+    <div id="shopPage5">
+        <div id="mxPeiJianWord">Model&nbspX&nbsp配件</div>
+        <div id="mxPeiJian">
+            <div id="mxPeiJianDiv">
+                <a href="https://shop.tesla.cn/category/vehicle-accessories/model-x" id="mxPeiJianLink">立即订购</a>
+            </div>
+        </div>
+    </div>
+    <div id="shopPage6">
+        <div id="myPeiJianWord">Model&nbspY&nbsp配件</div>
+        <div id="myPeiJian">
+            <div id="myPeiJianDiv">
+                <a href="https://shop.tesla.cn/category/vehicle-accessories/model-y" id="myPeiJianLink">立即订购</a>
+            </div>
+        </div>
+    </div>
+    <div id="shopPage7">
+        <div id="chargingProductsWord">充电产品</div>
+        <div id="chargingProducts">
+            <div id="chargingProductsDiv">
+                <a href="https://shop.tesla.cn/category/vehicle-accessories/model-y" id="chargingProductsLink">立即订购</a>
+            </div>
+        </div>
+    </div>
+    <div id="shopPage8">
+        <div id="nanZhuangBac">
+            <div id="nanZhuangWord">男装</div>
+            <div id="nanZhuangDiv">
+                <a href="https://shop.tesla.cn/category/apparel/men" id="nanZhuangLink">立即订购</a>
+            </div>
+        </div>
+        <div id="nvZhuangBac">
+            <div id="nvZhuangWord">女装</div>
+            <div id="nvZhuangDiv">
+                <a href="https://shop.tesla.cn/category/apparel/women" id="nvZhuangLink">立即订购</a>
+            </div>
+        </div>
+        <div id="tongZhuangBac">
+            <div id="tongZhuangWord">童装</div>
+            <div id="tongZhuangDiv">
+                <a href="https://shop.tesla.cn/category/apparel/kids" id="tongZhuangLink">立即订购</a>
+            </div>
+        </div>
+    </div>
+    <div id="shopPage9">
+        <div id="peripheralProductsWord">周边产品</div>
+        <div id="peripheralProducts">
+            <div id="peripheralProductsDiv">
+                <a href="https://shop.tesla.cn/category/vehicle-accessories/model-y" id="peripheralProductsLink">立即订购</a>
+            </div>
+        </div>
+    </div>
+    <div id="shopPageFeet">
+        <div id="aboutUs">
+            <a href="https://www.tesla.cn/about?redirect=no" id="aboutUsLink">Tesla©&nbspC</a>
+        </div>
+        <div id="laws">
+            <a href="https://www.tesla.cn/legal?redirect=no" id="lawsLink">隐私和法律</a>
+        </div>
+        <div id="yuMing">
+            <a href="https://beian.miit.gov.cn/#/Integrated/index" id="yumingLink">沪ICP备2021004806号-1</a>
         </div>
     </div>
     <!-- 导入js文件 -->
