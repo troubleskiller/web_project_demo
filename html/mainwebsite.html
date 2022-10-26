@@ -2,10 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>第一个测试网页</title>
-    <link rel="stylesheet" type="text/css" href="../css/test.css">
+    <title>Tesla.cn</title>
+    <!-- 导入css文件 -->
+    <link rel="stylesheet" type="text/css" href="../css/mainwebsite.css">
     <meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
     <style>
+        /* css3特性：在屏幕缩小时隐藏模块 */
         @media only screen and (max-width: 1200px) {
             #two,#three,#four,#five,#six,#seven,#eight,#nine,#tabb{
                 display: none;
@@ -29,21 +31,26 @@
     </style>
 </head>
 <body>
+    <!-- 主站页面1 -->
     <div id="backimgone">       
+        <!-- meau bar的制作 -->
         <div>
+            <!-- 商标 -->
             <a id="one" href="index.html">Tesla</a>
+            <!-- meau bar中间部分 -->
             <a id="two" class="top" href="https://www.tesla.cn/models" title="Model S">Model&nbspS</a>
             <a id="three" class="top" href="https://www.tesla.cn/model3" title="Model 3">Model&nbsp3</a>
             <a id="four" class="top" href="https://www.tesla.cn/modelx" title="Model X">Model&nbspX</a>
             <a id="five" class="top" href="https://www.tesla.cn/modely" title="Model Y">Model&nbspY</a>
             <a id="six" class="top" href="https://www.tesla.cn/cybertruck" title="Cybertruck">Cybertruck</a>
             <a id="seven" class="top" href="https://www.tesla.cn/powerwall" title="Powerwall">Powerwall</a>
-            <a id="eight" class="top1" href="https://shop.tesla.cn/" title="在线商店">在线商店&nbsp&nbsp&nbsp</a>
+            <!-- meau bar右侧部分 -->
+            <a id="eight" class="top1" href="shoponline.html" title="在线商店">在线商店&nbsp&nbsp&nbsp</a>
             <a id="nine" class="top1" href="https://www.tesla.cn/powerwall" title="账户">账户&nbsp&nbsp</a>
-            
-            <div class="top1" id="ten">
-                
+            <!-- 导航栏 -->
+            <div class="top1" id="ten">                
                 <a id="but" href="#">导航栏&nbsp&nbsp</a>
+                <!-- 导航栏下拉菜单 -->
                 <div id="daohang">
                     <a class="optt" href="https://www.tesla.cn/inventory/used/ms">认证二手车</a><br><br>
                     <a class="optt" href="https://www.tesla.cn/tradein">车辆置换</a><br><br>
@@ -58,18 +65,32 @@
                 </div>                
             </div>
         </div>
+        <!-- 页面主要的按钮设计 -->
         <div id="model3">Model&nbsp3</div>
         <div id="wudi"><a href="https://www.tesla.cn/drive" id="shijia"target='_blank' >预约试驾</a></div>
         <div id="zuo"><div id="zuoyi"><span class="juzhong"><a href="https://www.tesla.cn/model3/design#overview" target='_blank'title="定制我的Model3" id="zhe">定制我的&nbspModel&nbsp3</a></span></div></div>
         <div id="you"><div id="youyi"><span class="juzhong"><a href="https://www.tesla.cn/model3" title="了解Model3" id="na"target='_blank'>了解Model&nbsp3</a></span></div></div>>
         <div id="zhong"><div id="zhongjian"><span class="juzhong"><a href="https://www.tesla.cn/energy" title="了解更多" id="knowALot"target='_blank'>了解更多</a></span></div></div>     
-        <div id='jiantou'><a href="#topper"><img src="../source\R-C.jpg" id="img" onclick="moveScrollIntoView({behavior: 'smooth', block: 'start', inline: 'nearest'})"class="btn-style"></a></div>
+        <!-- 箭头指向页面2 -->
+        <div id='jiantou'><a href="#topper"><img src="../source/mainwebsite/tubiao/jiantou_xia.jpg" id="img" onclick="moveScrollIntoView({behavior: 'smooth', block: 'start', inline: 'nearest'})"class="btn-style"></a></div>
     </div>
-    <div id="bac2"><a id="input-style"></a> </div>
-    <div><div id="bac3"></div></div>
-    <div><div id="bac4"></div></div>
+    <!-- 主站页面2 -->
+    <div id="bac2">
+        <!-- 页面2的指针 -->
+        <a id="input-style"></a>
+    </div>
+    <!-- 主站页面3 -->
+    <div>
+        <div id="bac3"></div>
+    </div>
+    <!-- 主站页面4 -->
+    <div>
+        <div id="bac4"></div>
+    </div>
+    <!-- 主站页面5 -->
     <div>
         <div id="bac5">
+            <!-- 页尾的制作 -->
             <div id="taba">             
                 <table>
                     <tr id="tabb">
@@ -86,6 +107,7 @@
             </div>
         </div>
     </div>
-    <script src="../js/test.js"></script>
+    <!-- 导入js文件 -->
+    <script src="../js/mainwebsite.js"></script>
 </body>
 </html>

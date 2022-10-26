@@ -1,0 +1,1349 @@
+/* @author:xlk */
+/* 可针对html页面查询css样式，在css中不再注释 */
+body{
+    margin: 0%;
+    padding: 0%;
+}
+#shopimgone{
+    background-image: url("../source/shopwebsite/bacimg/bac1.webp")  ;
+    height: 969px;
+    width: 100%;
+    margin:0;
+    background-size:cover;
+    padding: 0%;
+    float: left;
+    position: relative;
+    
+}
+.top2 {
+    margin-right: 10px;
+    width: 263px;
+    height: 40px;
+    border: 1px solid #ccc;
+    background-color: #f2f2f5;
+    margin: 10px 0;
+    border-radius: 10px;
+    position: relative;
+    left:78%;   
+    top:-4.5%;
+}
+.serch {
+    height: 39px;
+    width: 230px;
+    float: left;
+    padding: 0 8px;
+    outline: none;
+    background-color: #f2f2f5;
+    border:none;
+    border-radius: 10px;
+}
+.pic {
+    align-items: center;
+    height: 30px;
+    width: 30px;
+    float: right;
+    padding-top: 5px;
+}
+.pic img{
+    height: 30px;
+    width: 30px;
+}
+#search2{
+    width: 35px;
+    height:35px;
+}
+#meaubar{
+    width:100%;
+    height:50px;
+    position: fixed;   
+    z-index: 850;
+}
+#shangbiao{
+    font-size: 34px;
+    position: fixed;
+    left: 2%;
+    top :1%;
+    font-family: fantasy;
+    float: left;
+    z-index: 999;
+    color:white;
+}
+#shangdianwenzi{
+    font-size: 29px;
+    position: fixed;
+    left: 9%;
+    top :1%;
+    font-family: fantasy;
+    float: left;
+    z-index: 999;
+    color:white;
+}
+#dianpuhuodong{
+    position: fixed;
+    left: 31%;
+    top:2%;
+    margin:0%; 
+    float: left;
+    overflow:hidden;
+    font-size: 100%; 
+    z-index: 999;  
+    color:white;  
+}
+#chongdianchanpin{
+    position: fixed;
+    left: 37.3%;
+    top:2%;
+    margin:0%;  
+    float: left; 
+    overflow:hidden;
+    font-size: 100%; 
+    z-index: 999;   
+    color:white;
+}
+#peijian{
+    position: fixed;
+    left: 43.6%;
+    top:2%;
+    margin:0%; 
+    float: left;
+    overflow:hidden;
+    font-size: 100%;   
+    z-index: 999;  
+    color:white; 
+}
+#peishi{
+    position: fixed;
+    left: 49.9%;
+    top:2%;
+    margin:0%;   
+    float: left; 
+    overflow:hidden;
+    font-size: 100%;  
+    z-index: 999; 
+    color:white;
+}
+
+#zhoubian{
+    position: fixed;
+    left: 56.2%;
+    top:2%;
+    margin:0%; 
+    float: left;
+    overflow:hidden;
+    font-size: 100%; 
+    z-index: 999; 
+    color:white;    
+}
+#seven{
+    position: fixed;
+    left: 63.6%;
+    top:2%;
+    margin:0%; 
+    float: left; 
+    overflow:hidden;
+    font-size: 100%;
+    z-index: 999; 
+    color:white;   
+}
+#eight{
+    position: fixed;
+    right:7.3%;
+    top:2%;
+    margin:0%;
+    float: right;
+    overflow:hidden;
+    font-size: 100%; 
+    z-index: 999; 
+    color:white;    
+}
+#nine{
+    position: fixed;
+    right: 4.3%;
+    top:1.5%;
+    margin:0%; 
+    float: right; 
+    overflow:hidden;
+    font-size: 100%; 
+    z-index: 999;      
+}
+*{
+    box-sizing: border-box;
+}
+#ten{
+    position: fixed;
+    right: 0%;
+    top:2%;
+    margin:0%;  
+    overflow:hidden;
+    font-size: 100%; 
+    z-index: 999; 
+    display: inline-block;
+    height: 420px;
+}
+.top{
+    border-radius: 5%;   
+
+}
+.top:hover{  
+    cursor:pointer;
+    background-color: rgba(153,153,153,0.3);
+    transition: 0.6s linear;
+        
+}
+.top1{
+    border-radius: 5%;
+}
+#daohanglan{
+    background-color: transparent;
+    border: none;
+    text-decoration: none;
+    color: white;
+}
+#ten:hover #daohanglan{
+    background-color: #999;
+
+}
+#meaubar:hover{
+    background-color: white;
+}
+#meaubar:hover #shangbiao{
+    color: black;
+}
+#meaubar:hover #shangdianwenzi{
+    color: black;
+}
+#meaubar:hover #dianpuhuodong{
+    color:black;
+}
+#meaubar:hover #chongdianchanpin{
+    color:black;
+}
+#meaubar:hover #peijian{
+    color:black;
+}
+#meaubar:hover #peishi{
+    color:black;
+}
+#meaubar:hover #zhoubian{
+    color:black;
+}
+#meaubar:hover #daohanglan{
+    color:black;
+}
+#meaubar:hover #search2{
+    content: url("../source/shopwebsite/barimg/top/shopcar.png");
+}
+
+
+#daohang{
+    display:none;
+    width:85px;
+    z-index: 999;
+    background-color:white;
+}
+#ten:hover #daohang{
+    display: block;
+}
+.optt{
+    background-color: transparent;
+    text-align: center;
+    text-decoration: none;
+    position: relative;
+    left:6%;
+    
+}
+.optt:hover{
+    background-color: rgba(153,153,153,0.5);
+}
+
+/* .top:hover{
+    background-color: #999;
+    opacity: 0.4;
+} */
+
+/* .top1:hover{
+    background-color: #999;
+    opacity: 0.4;
+} */
+a{
+    text-decoration: none;
+    color: black;
+}
+.over{
+    background-color: #999;
+}
+#model3{    
+    font-size: 240%;
+    position: relative;
+    top:73.5%; 
+    float:right;
+    margin: 0%;
+    z-index: 800;
+    padding: 0%;
+    width:100%;    
+    text-align: center;
+    color: white;
+}
+#wudi{
+    position:relative;
+    top:74%;
+    margin: 0%; 
+    text-align: center;   
+    float:right;
+    overflow:hidden;
+    z-index: 800;
+    width:100%;
+    color: white;
+    font-size: 150%;
+}
+#shijia{
+    text-decoration: underline;
+}
+#zhongjian{
+    margin:0%;
+    padding: 0%;
+    background-color: white;
+    position: relative;
+    top: 78%;
+    left:-43%;
+    width: 264px;
+    height: 40px;
+    border-radius:10px;  
+    z-index: 0; 
+    float:right;
+    overflow:hidden;    
+}
+#knowALot{
+    color: black;
+    margin: 0 auto; 
+    text-align: center;
+    line-height: 40px;
+    display: block;
+    float: left;
+    left: 0%;
+    position: relative;
+    width: 264px;
+    height:40px;
+}
+#juzhong{
+    display:flex;
+    line-height: 40px;
+    text-align: center;
+    display: block;
+}
+#img{
+    width: 40px;
+    height: 20px;
+    position: relative;
+}
+#chat{
+    position: fixed;
+    top:85%;
+    left:96%;
+    
+}
+#chat1{
+    width:45px;
+    height: 45px;
+}
+#tabb{
+    position: relative;
+    left: 74%;
+    margin:0%;
+    padding: 0%x;
+    font-size: small;
+    float: left;
+}
+#taba{
+    position: relative;
+    top:96.5%;
+    margin:0%;
+    padding: 0%; 
+    float: left;   
+}
+#liaotian{
+    outline: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+}
+#drop_down_menu_dianpuhuodong{
+    position:fixed;
+    height: 203px;
+    width: 100%;
+    top:5.2%;
+    background-color: white;
+    z-index: 0;
+    display:none;
+}
+#fuli{
+    position: fixed;
+    top:13%;
+    left: 4%;
+}
+#huixian{
+    position: fixed;
+    top: 15%;
+    left: 4%;
+    color: #999;
+    font-size: 22px;
+    height: 22px;
+    line-height: 22px;    
+}
+#drop_down_menu_chongdianchanpin{
+    position:fixed;
+    height: 515px;
+    width: 100%;
+    top:5.2%;
+    background-color: white;
+    z-index: 1;
+    display: none;
+    
+}
+#drop_down_menu_peijian{
+    position:fixed;
+    height: 515px;
+    width: 100%;
+    top:5.2%;
+    background-color: white;
+    z-index: 2;  
+    display: none;  
+}
+#drop_down_menu_peishi{
+    position:fixed;
+    height: 515px;
+    width: 100%;
+    top:5.2%;
+    background-color: white;
+    z-index: 3;
+    display: none;  
+}
+#drop_down_menu_zhoubian{
+    position:fixed;
+    height: 515px;
+    width: 100%;
+    top:5.2%;
+    background-color: white;
+    z-index: 4; 
+    display: none; 
+}
+
+#xinglijia{
+    position: fixed;
+    display: inline-block;
+    height: 350px;
+    width: 500px;
+    top: 13%;
+    left: 72%;
+    
+}
+#xinglijialink{
+    height: 350px;
+    width: 500px;
+}
+#xinglijiawenzi{
+    width: 500px;
+    height:50px;
+    line-height: 50px;
+    font-size: 20px;
+    text-align: center;
+}
+
+#jiating{
+    position: fixed;
+    display: inline-block;
+    height:50px;
+    width: 100px;
+    top:13%;
+    left:5%;
+}
+#lvxing{
+    position: fixed;
+    display: inline-block;
+    height:50px;
+    width: 100px;
+    top:13%;
+    left:19%;
+}
+#fuwubao{
+    position: fixed;
+    display: inline-block;
+    height: 350px;
+    width: 500px;
+    top: 13%;
+    left: 66%;
+    
+}
+#fuwulink{
+    height: 350px;
+    width: 500px;
+}
+
+#xinglijiawenzi{
+    width: 500px;
+    height:50px;
+    line-height: 50px;
+    font-size: 20px;
+}
+#modelspeijian{
+    position: fixed;
+    display: inline-block;
+    height:250px;
+    width: 200px;
+    top:13%;
+    left:5%;
+}
+#mslink0{
+    font-size: larger;
+    font-weight:bolder;
+}
+.mslink{
+    font-size: small;
+    font-weight: lighter;
+}
+.m3link{
+    font-size: small;
+    font-weight: lighter;
+}
+#m3link0{
+    font-size: larger;
+    font-weight:bolder;
+}
+#mxlink0{
+    font-size: larger;
+    font-weight:bolder;
+}
+.mxlink{
+    font-size: small;
+    font-weight: lighter;
+}
+#mylink0{
+    font-size: larger;
+    font-weight:bolder;
+}
+.mylink{
+    font-size: small;
+    font-weight: lighter;
+}
+#model3peijian{
+    position: fixed;
+    display: inline-block;
+    height:250px;
+    width: 200px;
+    top:13%;
+    left:20%;
+}
+#modelxpeijian{
+    position: fixed;
+    display: inline-block;
+    height:250px;
+    width: 200px;
+    top:13%;
+    left:35%;
+}
+#modelypeijian{
+    position: fixed;
+    display: inline-block;
+    height:250px;
+    width: 200px;
+    top:13%;
+    left:50%;
+}
+#maoshan{
+    position: fixed;
+    display: inline-block;
+    height: 350px;
+    width: 500px;
+    top: 13%;
+    left: 72%;
+}
+#maoshanwenzi{
+    width: 500px;
+    height:50px;
+    line-height: 50px;
+    font-size: 20px;
+    text-align: center;
+}
+#nanzhuang{
+    position: fixed;
+    display: inline-block;
+    height:250px;
+    width: 200px;
+    top:13%;
+    left:5%;
+}
+#nvzhuang{
+    position: fixed;
+    display: inline-block;
+    height:250px;
+    width: 200px;
+    top:13%;
+    left:20%;
+}
+#ertong{
+    position: fixed;
+    display: inline-block;
+    height:250px;
+    width: 200px;
+    top:13%;
+    left:35%;
+}
+#nanlink0{
+    font-size: larger;
+    font-weight:bolder;
+}
+#nvlink0{
+    font-size: larger;
+    font-weight:bolder;
+}
+#erlink0{
+    font-size: larger;
+    font-weight:bolder;
+}
+.nanlink{
+    font-size: small;
+    font-weight: lighter;
+}
+.nvlink{
+    font-size: small;
+    font-weight: lighter;
+}
+.erlink{
+    font-size: small;
+    font-weight: lighter;
+}
+#changxiao{
+    position: fixed;
+    display: inline-block;
+    height:250px;
+    width: 200px;
+    top:13%;
+    left:5%;
+}
+#mini{
+    position: fixed;
+    display: inline-block;
+    height:250px;
+    width: 200px;
+    top:13%;
+    left:20%;
+}
+#yinju{
+    position: fixed;
+    display: inline-block;
+    height:250px;
+    width: 200px;
+    top:13%;
+    left:35%;
+}
+#huwaiyongju{
+    position: fixed;
+    display: inline-block;
+    height:250px;
+    width: 200px;
+    top:13%;
+    left:50%;
+}
+#keji{
+    position: fixed;
+    display: inline-block;
+    height:250px;
+    width: 200px;
+    top:13%;
+    left:75%;
+}
+#chongdianqi{
+    position: fixed;
+    display: inline-block;
+    height: 350px;
+    width: 500px;
+    top: 13%;
+    left: 72%;
+}
+#chongdianqiwenzi{
+    width: 500px;
+    height:50px;
+    line-height: 50px;
+    font-size: 20px;
+    text-align: center;
+}
+#keji{
+    position: fixed;
+    display: inline-block;
+    height:250px;
+    width: 200px;
+    top:23%;
+    left:5%;
+}
+#changlink0{
+    font-size: larger;
+    font-weight:bolder;
+}
+#minilink0{
+    font-size: larger;
+    font-weight:bolder;
+}
+#yinjulink0{
+    font-size: larger;
+    font-weight:bolder;
+}
+#huwailink0{
+    font-size: larger;
+    font-weight:bolder;
+}
+#kejilink0{
+    font-size: larger;
+    font-weight:bolder;
+}
+#chezhulink0{
+    font-size: larger;
+    font-weight:bolder;
+}
+#jiatinglink0{
+    font-size: larger;
+    font-weight:bolder;
+}
+#lvxinglink0{
+    font-size: larger;
+    font-weight:bolder;
+}
+#shopimg2{   
+    height: 696px;
+    width: 100%;
+    margin: 0;
+    padding: 0%;
+    float: left;
+    position: relative;
+    z-index: -999;
+}
+#bestSellers{
+    width: 100%;
+    height: 36px;
+    float: left;
+    position: relative;
+    top: 1%;
+}
+#bestSellersWord{
+    display: inline;
+    font-size: 28px;
+    line-height: 36px;
+    position: relative;
+    left: 1%;
+}
+#seeAll{
+    position: relative;
+    line-height: 36px;
+    left: 89%;
+    display: inline;
+}
+#taoCan{
+    height: 650px;
+    width: 100%;
+    position: relative;
+    top: 7%;
+}
+#myTaoCan{
+    position: relative;
+    height: 650px;
+    width: 580px;
+    display: inline-block;
+    top:-6%;
+    left:1%
+}
+#myTaoCanLink{
+    position: relative;
+    height: 650px;
+    width: 580px;
+    left: 1%;
+    top: 1%;
+}
+#myTaoCanImg{
+    position: relative;
+    height: 580px;
+    width: 580px;   
+}
+#myTaoCanWord{
+    width: 580px;
+    height: 44px;
+    line-height: 44px;
+}
+#mic{
+    position: relative;
+    height: 650px;
+    width: 580px;
+    display: inline-block;
+    left:4%;
+    top:-6%;
+}
+#micLink{
+    position: relative;
+    height: 650px;
+    width: 580px;
+    left: 1%;
+    top: 1%;
+}
+#micImg{
+    position: relative;
+    height:580px;
+    width:580px;
+}
+#micWord{
+    width: 580px;
+    height: 44px;
+    line-height: 44px;
+}
+#m3TaoCan{
+    position: relative;
+    height:650px;
+    width:580px;
+    left:7%;
+    top:-6%;
+    display: inline-block;
+}
+#m3TaoCanLink{
+    position: relative;
+    height:650px;
+    width:580px;
+}
+#m3TaoCanImg{
+    position: relative;
+    height:580px;
+    width:580px;
+}
+#m3TaoCanWord{
+    width: 580px;
+    height: 44px;
+    line-height: 44px;
+}
+#shopPage3{
+    height:920.55px ;
+    background-image: url("../source/shopwebsite/bacimg/bac2.jpg")  ;
+    width: 100%;
+    margin:0;
+    background-size:cover;
+    padding: 0%;
+    float: left;
+    position: relative;
+    z-index: -10;
+}
+#shopPage4{
+    height:920.55px ;
+    background-image: url("../source/shopwebsite/bacimg/bac3.jpg")  ;
+    width: 100%;
+    margin:0;
+    background-size:cover;
+    padding: 0%;
+    float: left;
+    position: relative;
+    z-index: -10;
+}
+#shopPage5{
+    height:920.55px ;
+    background-image: url("../source/shopwebsite/bacimg/bac4.jpg")  ;
+    width: 100%;
+    margin:0;
+    background-size:cover;
+    padding: 0%;
+    float: left;
+    position: relative;
+    z-index: -10;
+}
+#shopPage6{
+    background-image: url("../source/shopwebsite/bacimg/bac5.jpg")  ;
+    height:920.55px ;
+    width: 100%;
+    margin:0;
+    background-size:cover;
+    padding: 0%;
+    float: left;
+    position: relative;
+    z-index: -10;
+}
+#shopPage7{
+    height:920.55px ;
+    background-image: url("../source/shopwebsite/bacimg/bac6.jpg") ;
+    width: 100%;
+    margin:0;
+    background-size:cover;
+    padding: 0%;
+    float: left;
+    position: relative;
+    z-index: -10;
+}
+#shopPage8{
+    height:920.55px ;
+    background-color: white;
+    width: 100%;
+    margin:0;
+    padding: 0%;
+    float: left;
+    position: relative;
+    z-index: -10;
+    background-size:cover;
+}
+#shopPage9{
+    height:920.55px ;
+    background-image: url("../source/shopwebsite/bacimg/bac7.jpg") ;
+    width: 100%;
+    margin:0;
+    background-size:cover;
+    padding: 0%;
+    float: left;
+    position: relative;
+    z-index: -10;
+}
+#shopPageFeet{
+    height:90px ;
+    background-color: white;
+    width: 100%;
+    margin:0;
+    padding: 0%;
+    float: left;
+    position: relative;
+    z-index: -10;
+}
+#aboutUs{
+    display:inline-block;
+    line-height: 90px;
+    position: relative;
+    left:42%;
+    font-weight: lighter;
+    font-size: smaller;
+}
+#laws{
+    display:inline-block;
+    line-height: 90px;
+    position: relative;
+    left:43%;
+    font-weight: lighter;
+    font-size: smaller;
+}
+#yuMing{
+    display:inline-block;
+    line-height: 90px;
+    position: relative;
+    left:44%;
+    font-weight: lighter;
+    font-size: smaller;
+}
+#msPeiJianWord{
+    text-align: center;
+    position: relative;
+    top: 72%;
+    font-weight: bold;
+    color: white;
+    font-size: 38px;
+}
+#msPeiJianLink{
+    text-align: center;
+    position: relative;   
+    color: black; 
+    line-height: 40px;  
+    width:283px;
+    height:40px;
+    display: inline-block;
+}
+#msPeiJianDiv{
+    text-align: center;
+    margin: 0 auto;
+    width:283px;
+    height:40px;
+    background-color: white;
+    border-radius: 5px;
+}
+#msPeiJian{
+    position: relative;
+    top:75%;
+    text-align: center;
+}
+
+
+#m3PeiJianWord{
+    text-align: center;
+    position: relative;
+    top: 72%;
+    font-weight: bold;
+    color: black;
+    font-size: 38px;
+}
+#m3PeiJianLink{
+    text-align: center;
+    position: relative;   
+    color: black; 
+    line-height: 40px;  
+    width:283px;
+    height:40px;
+    display: inline-block;
+}
+#m3PeiJianDiv{
+    text-align: center;
+    margin: 0 auto;
+    width:283px;
+    height:40px;
+    background-color: white;
+    border-radius: 5px;
+}
+#m3PeiJian{
+    position: relative;
+    top:75%;
+    text-align: center;
+}
+#mxPeiJianWord{
+    text-align: center;
+    position: relative;
+    top: 72%;
+    font-weight: bold;
+    color: white;
+    font-size: 38px;
+}
+#mxPeiJianLink{
+    text-align: center;
+    position: relative;   
+    color: black; 
+    line-height: 40px;  
+    width:283px;
+    height:40px;
+    display: inline-block;
+}
+#mxPeiJianDiv{
+    text-align: center;
+    margin: 0 auto;
+    width:283px;
+    height:40px;
+    background-color: white;
+    border-radius: 5px;
+}
+#mxPeiJian{
+    position: relative;
+    top:75%;
+    text-align: center;
+}
+#myPeiJianWord{
+    text-align: center;
+    position: relative;
+    top: 72%;
+    font-weight: bold;
+    color: black;
+    font-size: 38px;
+}
+#myPeiJianLink{
+    text-align: center;
+    position: relative;   
+    color: black; 
+    line-height: 40px;  
+    width:283px;
+    height:40px;
+    display: inline-block;
+}
+#myPeiJianDiv{
+    text-align: center;
+    margin: 0 auto;
+    width:283px;
+    height:40px;
+    background-color: white;
+    border-radius: 5px;
+}
+#myPeiJian{
+    position: relative;
+    top:75%;
+    text-align: center;
+}
+#chargingProductsWord{
+    text-align: center;
+    position: relative;
+    top: 72%;
+    font-weight: bold;
+    color: black;
+    font-size: 38px;
+}
+#chargingProductsLink{
+    text-align: center;
+    position: relative;   
+    color: black; 
+    line-height: 40px;  
+    width:283px;
+    height:40px;
+    display: inline-block;
+}
+#chargingProductsDiv{
+    text-align: center;
+    margin: 0 auto;
+    width:283px;
+    height:40px;
+    background-color: white;
+    border-radius: 5px;
+}
+#chargingProducts{
+    position: relative;
+    top:75%;
+    text-align: center;
+}
+#peripheralProductsWord{
+    text-align: center;
+    position: relative;
+    top: 72%;
+    font-weight: bold;
+    color: black;
+    font-size: 38px;
+}
+#peripheralProductsLink{
+    text-align: center;
+    position: relative;   
+    color: black; 
+    line-height: 40px;  
+    width:283px;
+    height:40px;
+    display: inline-block;
+    margin: 0 auto;
+}
+#peripheralProductsDiv{
+    text-align: center;
+    margin: 0 auto;
+    width:283px;
+    height:40px;
+    background-color: transparent;
+    border-radius: 5px;
+    border:2px solid black ;
+    line-height: 40px; 
+}
+#peripheralProducts{
+    position: relative;
+    top:75%;
+    text-align: center;
+}
+#nanZhuangBac{
+    width: 632.33px;
+    height: 920.55px;
+    position: relative;
+    background-image: url("../source/shopwebsite/page2/Men_web.jpg") ;
+    margin: 0;
+    padding: 0;
+    background-position: center;
+    background-size: 252%;
+    display: inline-block;    
+}
+#nanZhuangDiv{
+    text-align: center;
+    margin: 0 auto;
+    width:110px;
+    height:40px;
+    background-color: transparent;
+    border-radius: 5px;
+    border:2px solid black ;
+    line-height: 40px;
+    position: relative;
+    top:83%;   
+}
+#nanZhuangWord{
+    position: relative;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bolder;
+    top:81%;   
+}
+#nvZhuangBac{
+    width: 632.33px;
+    height: 920.55px;
+    position: relative;
+    background-image: url("../source/shopwebsite/page2/Women_web.jpg") ;
+    margin: 0;
+    padding: 0;
+    background-position: center;
+    background-size: 252%;
+    display: inline-block;    
+}
+#nvZhuangDiv{
+    text-align: center;
+    margin: 0 auto;
+    width:110px;
+    height:40px;
+    background-color: transparent;
+    border-radius: 5px;
+    border:2px solid black ;
+    line-height: 40px;
+    position: relative;
+    top:83%;   
+}
+#nvZhuangWord{
+    position: relative;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bolder;
+    top:81%;
+}
+#tongZhuangBac{
+    width: 623.33px;
+    height: 920.55px;
+    position: relative;
+    background-image: url("../source/shopwebsite/page2/Kids_web.jpg") ;
+    margin: 0;
+    padding: 0;
+    background-position: center;
+    background-size: 252%;
+    display: inline-block;   
+}
+#tongZhuangDiv{
+    text-align: center;
+    margin: 0 auto;
+    width:110px;
+    height:40px;
+    background-color: transparent;
+    border-radius: 5px;
+    border:2px solid black ;
+    line-height: 40px;
+    position: relative;
+    top:83%;   
+}
+#tongZhuangWord{
+    position: relative;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bolder;
+    top:81%;
+}
+#nanZhuangLink{
+    text-align: center;
+    position: relative;   
+    color: black; 
+    line-height: 40px;  
+    width:110px;
+    height:40px;
+    display: inline-block;
+    margin: 0 auto;
+}
+#nvZhuangLink{
+    text-align: center;
+    position: relative;   
+    color: black; 
+    line-height: 40px;  
+    width:110px;
+    height:40px;
+    display: inline-block;
+    margin: 0 auto;
+}
+#tongZhuangLink{
+    text-align: center;
+    position: relative;   
+    color: black; 
+    line-height: 40px;  
+    width:110px;
+    height:40px;
+    display: inline-block;
+    margin: 0 auto;
+}
+#feedbackMeau{
+    position: fixed;
+    width: 442px;
+    height: 770px;
+    background-color: white;
+    z-index: 999;
+    top: 17%;
+    left: 76%;
+    border-radius: 10px;
+    box-shadow: 0 0  20px ; 
+    display: none;
+}
+#formalProblem{
+    position: relative;
+    left: 22%;
+}
+#closeLink{
+    position: relative;
+    left: 54%;
+    width:32px;
+    height: 32px;
+}
+#closeImg{
+    position: relative;
+    top:1%;
+}
+#consultOnline{
+    position: relative;
+    top: 2%;
+    font-size: 24px;
+    font-weight: bold;
+    left: 4%;
+}
+#name{
+    position: relative;
+    top:5%;
+    left: 5%;
+    font-size: 15px;
+    font-weight: lighter;
+}
+#username{
+    position: relative;
+    top:6%;
+    left: 4%;
+    width: 400px;
+    height: 40px;
+    background-color:#f4f4f4;
+    border:1px solid #ccc ;
+    border-radius: 5px;
+}
+#xingShi{
+    position: relative;
+    top:9%;
+    left: 5%;
+    font-size: 15px;
+    font-weight: lighter;
+}
+#xingShiKuang{
+    position: relative;
+    top:10%;
+    left: 4%;
+    width: 400px;
+    height: 40px;
+    background-color: #f4f4f4;
+    border:1px solid #ccc ;
+    border-radius: 5px;
+}
+#emailadress{
+    position: relative;
+    top:13%;
+    left: 5%;
+    font-size: 15px;
+    font-weight: lighter;
+}
+#emailadressKuang{
+    position: relative;
+    top:14%;
+    left: 4%;
+    width: 400px;
+    height: 40px;
+    background-color: #f4f4f4;
+    border:1px solid #ccc ;
+    border-radius: 5px;
+}
+#consultingTopic{
+    position: relative;
+    top:17%;
+    left: 5%;
+    font-size: 15px;
+    font-weight: lighter;
+}
+#consultingTopicKuang{
+    position: relative;
+    top:18%;
+    left: 4%;
+    width: 400px;
+    height: 40px;
+    background-color: #f4f4f4;
+    border:1px solid #ccc ;
+    border-radius: 5px;
+}
+#submitButton{
+    position: relative;
+    top:25%;
+    left: 4%;
+    width: 400px;
+    height: 40px;
+    color: white;
+    background-color: #3e6ae1;
+    border: none;
+    border-radius: 5px;
+}
+
+
+

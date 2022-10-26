@@ -1,9 +1,11 @@
+/* @author:xlk */
+/* 可针对html页面查询css样式，在css中不再注释 */
 body{
     margin: 0%;
     padding: 0%;
 }
 #backimgone{
-    background-image: url("../source/backgroundimg1.webp")  ;
+    background-image: url("../source/mainwebsite/background/bac1.webp")  ;
     height: 980px;
     width: 100%;
     margin:0;
@@ -16,7 +18,7 @@ body{
 #bac2{
     height: 980px;
     width: 100%;
-    background-image: url("../source/backgroundimgtwo.jpg") ;  
+    background-image: url("../source/mainwebsite/background/bac2.jpg") ;  
     margin:0;
     background-size: cover;
     padding: 0%;
@@ -26,7 +28,7 @@ body{
 #bac3{
     height: 980px;
     width: 100%;
-    background-image: url("../source/modelx.jpg") ;  
+    background-image: url("../source/mainwebsite/background/bac3.jpg") ;  
     margin:0;
     background-size: cover;
     padding: 0%;
@@ -36,7 +38,7 @@ body{
 #bac4{
     height: 980px;
     width: 100%;
-    background-image: url("../source/bac4.jpg") ;  
+    background-image: url("../source/mainwebsite/background/bac4.jpg") ;  
     margin:0;
     background-size: cover;
     padding: 0%;
@@ -46,7 +48,7 @@ body{
 #bac5{
     height: 980px;
     width: 100%;
-    background-image: url("../source/bac52.jpg") ;  
+    background-image: url("../source/mainwebsite/background/bac5.jpg") ;  
     margin:0;
     background-size: cover;
     padding: 0%;
